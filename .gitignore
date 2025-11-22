@@ -1,0 +1,12 @@
+# Ignore semua file & folder
+/*
+
+# Tapi simpan yang penting
+!/lib/
+!/assets/
+!/pubspec.yaml
+
+# Optional: biar folder tetap tersimpan walau kosong
+!.gitignore
+
+!/android/

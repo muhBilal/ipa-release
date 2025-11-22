@@ -1,0 +1,2233 @@
+{
+  "summary_count": 170,
+  "items": [
+    {
+      "message": "All Articles",
+      "key": "all_articles",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/articles/articles_list.dart",
+          "start": 2323,
+          "snippet": "All Articles"
+        }
+      ]
+    },
+    {
+      "message": "MCU Questionnaire",
+      "key": "mcu_questionnaire",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/webview/mcu_questionnaire_webview.dart",
+          "start": 1328,
+          "snippet": "MCU Questionnaire"
+        }
+      ]
+    },
+    {
+      "message": "My Favorite Doctors",
+      "key": "my_favorite_doctors",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/favorites_view/my_favorite_view.dart",
+          "start": 1501,
+          "snippet": "My Favorite Doctors"
+        }
+      ]
+    },
+    {
+      "message": "No favorite doctors yet",
+      "key": "no_favorite_doctors_yet",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/favorites_view/my_favorite_view.dart",
+          "start": 2458,
+          "snippet": "No favorite doctors yet"
+        }
+      ]
+    },
+    {
+      "message": "Browse and add doctors to your favorites",
+      "key": "browse_and_add_doctors_to_your_favorites",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/favorites_view/my_favorite_view.dart",
+          "start": 2793,
+          "snippet": "Browse and add doctors to your favorites"
+        }
+      ]
+    },
+    {
+      "message": "Doctor added to favorites",
+      "key": "doctor_added_to_favorites",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/favorites_view/my_favorite_view.dart",
+          "start": 10398,
+          "snippet": "Doctor added to favorites"
+        }
+      ]
+    },
+    {
+      "message": "Doctor removed from favorites",
+      "key": "doctor_removed_from_favorites",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/favorites_view/my_favorite_view.dart",
+          "start": 10551,
+          "snippet": "Doctor removed from favorites"
+        }
+      ]
+    },
+    {
+      "message": "Failed to update favorite status",
+      "key": "failed_to_update_favorite_status",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/favorites_view/my_favorite_view.dart",
+          "start": 12023,
+          "snippet": "Failed to update favorite status"
+        },
+        {
+          "file": "lib/views/doctors_view/my_doctor_view.dart",
+          "start": 10464,
+          "snippet": "Failed to update favorite status"
+        }
+      ]
+    },
+    {
+      "message": "Notifications",
+      "key": "notifications",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/notifications/my_notifications_view.dart",
+          "start": 1126,
+          "snippet": "Notifications"
+        }
+      ]
+    },
+    {
+      "message": "❌ Error: ${provider.error}",
+      "key": "error",
+      "placeholders": [
+        "provider_error"
+      ],
+      "occurrences": [
+        {
+          "file": "lib/views/notifications/my_notifications_view.dart",
+          "start": 1652,
+          "snippet": "❌ Error: ${provider.error}"
+        }
+      ]
+    },
+    {
+      "message": "No notifications yet.",
+      "key": "no_notifications_yet",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/notifications/my_notifications_view.dart",
+          "start": 1834,
+          "snippet": "No notifications yet."
+        }
+      ]
+    },
+    {
+      "message": "Sign-in successful. Welcome!",
+      "key": "sign_in_successful_welcome",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/signup/signup_view.dart",
+          "start": 3669,
+          "snippet": "Sign-in successful. Welcome!"
+        }
+      ]
+    },
+    {
+      "message": "Sign-in failed: $error",
+      "key": "sign_in_failed_error",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/signup/signup_view.dart",
+          "start": 4041,
+          "snippet": "Sign-in failed: $error"
+        }
+      ]
+    },
+    {
+      "message": "Name is required",
+      "key": "name_is_required",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/signup/signup_view.dart",
+          "start": 4456,
+          "snippet": "Name is required"
+        }
+      ]
+    },
+    {
+      "message": "Phone number is required",
+      "key": "phone_number_is_required",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/signup/signup_view.dart",
+          "start": 4523,
+          "snippet": "Phone number is required"
+        }
+      ]
+    },
+    {
+      "message": "Invalid email format",
+      "key": "invalid_email_format",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/signup/signup_view.dart",
+          "start": 4698,
+          "snippet": "Invalid email format"
+        }
+      ]
+    },
+    {
+      "message": "Registration successful",
+      "key": "registration_successful",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/signup/signup_view.dart",
+          "start": 7490,
+          "snippet": "Registration successful"
+        }
+      ]
+    },
+    {
+      "message": "Registration failed. Please try again.",
+      "key": "registration_failed_please_try_again",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/signup/signup_view.dart",
+          "start": 7700,
+          "snippet": "Registration failed. Please try again."
+        }
+      ]
+    },
+    {
+      "message": "An error occurred: $e",
+      "key": "an_error_occurred_e",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/signup/signup_view.dart",
+          "start": 7966,
+          "snippet": "An error occurred: $e"
+        }
+      ]
+    },
+    {
+      "message": "Search country or code...",
+      "key": "search_country_or_code",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/signup/signup_view.dart",
+          "start": 13467,
+          "snippet": "Search country or code..."
+        },
+        {
+          "file": "lib/views/login/login_view.dart",
+          "start": 30678,
+          "snippet": "Search country or code..."
+        },
+        {
+          "file": "lib/views/profile/profile_view.dart",
+          "start": 11795,
+          "snippet": "Search country or code..."
+        }
+      ]
+    },
+    {
+      "message": "Phone Number",
+      "key": "phone_number",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/signup/signup_view.dart",
+          "start": 24433,
+          "snippet": "Phone Number"
+        }
+      ]
+    },
+    {
+      "message": "Gender",
+      "key": "gender",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/signup/signup_view.dart",
+          "start": 27404,
+          "snippet": "Gender"
+        }
+      ]
+    },
+    {
+      "message": "Nationality",
+      "key": "nationality",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/signup/signup_view.dart",
+          "start": 35792,
+          "snippet": "Nationality"
+        }
+      ]
+    },
+    {
+      "message": "Create Your Account",
+      "key": "create_your_account",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/signup/signup_view.dart",
+          "start": 45099,
+          "snippet": "Create Your Account"
+        }
+      ]
+    },
+    {
+      "message": "Please fill in the details below to create your account.",
+      "key": "please_fill_in_the_details_below_to_create_your_account",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/signup/signup_view.dart",
+          "start": 45545,
+          "snippet": "Please fill in the details below to create your account."
+        }
+      ]
+    },
+    {
+      "message": "Full Name",
+      "key": "full_name",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/signup/signup_view.dart",
+          "start": 46329,
+          "snippet": "Full Name"
+        }
+      ]
+    },
+    {
+      "message": "Email Address",
+      "key": "email_address",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/signup/signup_view.dart",
+          "start": 46680,
+          "snippet": "Email Address"
+        }
+      ]
+    },
+    {
+      "message": "NIK Number",
+      "key": "nik_number",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/signup/signup_view.dart",
+          "start": 47541,
+          "snippet": "NIK Number"
+        }
+      ]
+    },
+    {
+      "message": "Passport Number",
+      "key": "passport_number",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/signup/signup_view.dart",
+          "start": 47600,
+          "snippet": "Passport Number"
+        }
+      ]
+    },
+    {
+      "message": "Sign Up",
+      "key": "sign_up",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/signup/signup_view.dart",
+          "start": 50429,
+          "snippet": "Sign Up"
+        },
+        {
+          "file": "lib/views/login/login_view.dart",
+          "start": 54966,
+          "snippet": "Sign Up"
+        }
+      ]
+    },
+    {
+      "message": "By signing up, you agree to our Terms of Service and Privacy Policy.",
+      "key": "by_signing_up_you_agree_to_our_terms_of_service_and_privacy_policy",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/signup/signup_view.dart",
+          "start": 56582,
+          "snippet": "By signing up, you agree to our Terms of Service and Privacy Policy."
+        }
+      ]
+    },
+    {
+      "message": "Already have an account? ",
+      "key": "already_have_an_account",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/signup/signup_view.dart",
+          "start": 57357,
+          "snippet": "Already have an account? "
+        }
+      ]
+    },
+    {
+      "message": "Sign In",
+      "key": "sign_in",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/signup/signup_view.dart",
+          "start": 57735,
+          "snippet": "Sign In"
+        }
+      ]
+    },
+    {
+      "message": "Retry",
+      "key": "retry",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/doctor_booking/doctor_booking_screen.dart",
+          "start": 18683,
+          "snippet": "Retry"
+        },
+        {
+          "file": "lib/views/doctor_details/doctor_details_view.dart",
+          "start": 3563,
+          "snippet": "Retry"
+        },
+        {
+          "file": "lib/views/examination_order/labolatory/order_labolatory_view.dart",
+          "start": 4791,
+          "snippet": "Retry"
+        },
+        {
+          "file": "lib/views/examination_order/radiology/order_radiology_view.dart",
+          "start": 5026,
+          "snippet": "Retry"
+        }
+      ]
+    },
+    {
+      "message": "Education details are not available right now.",
+      "key": "education_details_are_not_available_right_now",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/doctor_booking/doctor_booking_screen.dart",
+          "start": 20604,
+          "snippet": "Education details are not available right now."
+        },
+        {
+          "file": "lib/views/doctor_booking/doctor_booking_screen.dart",
+          "start": 25478,
+          "snippet": "Education details are not available right now."
+        }
+      ]
+    },
+    {
+      "message": "Certifications",
+      "key": "certifications",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/doctor_booking/doctor_booking_screen.dart",
+          "start": 21176,
+          "snippet": "Certifications"
+        },
+        {
+          "file": "lib/views/doctor_booking/doctor_booking_screen.dart",
+          "start": 25971,
+          "snippet": "Certifications"
+        },
+        {
+          "file": "lib/views/doctor_details/doctor_details_view.dart",
+          "start": 14543,
+          "snippet": "Certifications"
+        }
+      ]
+    },
+    {
+      "message": "Certification details are not available right now.",
+      "key": "certification_details_are_not_available_right_now",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/doctor_booking/doctor_booking_screen.dart",
+          "start": 21290,
+          "snippet": "Certification details are not available right now."
+        },
+        {
+          "file": "lib/views/doctor_booking/doctor_booking_screen.dart",
+          "start": 27055,
+          "snippet": "Certification details are not available right now."
+        }
+      ]
+    },
+    {
+      "message": "General Schedule",
+      "key": "general_schedule",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/doctor_booking/doctor_booking_screen.dart",
+          "start": 21864,
+          "snippet": "General Schedule"
+        },
+        {
+          "file": "lib/views/doctor_booking/doctor_booking_screen.dart",
+          "start": 27550,
+          "snippet": "General Schedule"
+        }
+      ]
+    },
+    {
+      "message": "Schedule details are not available right now.",
+      "key": "schedule_details_are_not_available_right_now",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/doctor_booking/doctor_booking_screen.dart",
+          "start": 21979,
+          "snippet": "Schedule details are not available right now."
+        },
+        {
+          "file": "lib/views/doctor_booking/doctor_booking_screen.dart",
+          "start": 28693,
+          "snippet": "Schedule details are not available right now."
+        }
+      ]
+    },
+    {
+      "message": "Professional Info",
+      "key": "professional_info",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/doctor_booking/doctor_booking_screen.dart",
+          "start": 23132,
+          "snippet": "Professional Info"
+        }
+      ]
+    },
+    {
+      "message": "Specialist",
+      "key": "specialist",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/doctor_booking/doctor_booking_screen.dart",
+          "start": 23435,
+          "snippet": "Specialist"
+        }
+      ]
+    },
+    {
+      "message": "Department",
+      "key": "department",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/doctor_booking/doctor_booking_screen.dart",
+          "start": 23551,
+          "snippet": "Department"
+        }
+      ]
+    },
+    {
+      "message": "Doctor ID",
+      "key": "doctor_id",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/doctor_booking/doctor_booking_screen.dart",
+          "start": 23661,
+          "snippet": "Doctor ID"
+        }
+      ]
+    },
+    {
+      "message": "Internal ID",
+      "key": "internal_id",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/doctor_booking/doctor_booking_screen.dart",
+          "start": 23731,
+          "snippet": "Internal ID"
+        }
+      ]
+    },
+    {
+      "message": "Department ID",
+      "key": "department_id",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/doctor_booking/doctor_booking_screen.dart",
+          "start": 23835,
+          "snippet": "Department ID"
+        }
+      ]
+    },
+    {
+      "message": "Select Doctor",
+      "key": "select_doctor",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/doctor_booking/doctor_booking_screen.dart",
+          "start": 30804,
+          "snippet": "Select Doctor"
+        },
+        {
+          "file": "lib/views/wellness/mcu_booking_scree.dart",
+          "start": 6067,
+          "snippet": "Select Doctor"
+        }
+      ]
+    },
+    {
+      "message": "Hello, I would like to inquire about the services.",
+      "key": "hello_i_would_like_to_inquire_about_the_services",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/doctor_booking/doctor_booking_screen.dart",
+          "start": 35313,
+          "snippet": "Hello, I would like to inquire about the services."
+        }
+      ]
+    },
+    {
+      "message": "Contact via WhatsApp",
+      "key": "contact_via_whatsapp",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/doctor_booking/doctor_booking_screen.dart",
+          "start": 36870,
+          "snippet": "Contact via WhatsApp"
+        },
+        {
+          "file": "lib/views/wellness/wellnesss_booking_screen.dart",
+          "start": 11698,
+          "snippet": "Contact via WhatsApp"
+        },
+        {
+          "file": "lib/views/wellness/mcu_booking_scree.dart",
+          "start": 29514,
+          "snippet": "Contact via WhatsApp"
+        }
+      ]
+    },
+    {
+      "message": "Identity not found (NIK / Passport)",
+      "key": "identity_not_found_nik_passport",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/booking_view/my_booking_view.dart",
+          "start": 2624,
+          "snippet": "Identity not found (NIK / Passport)"
+        }
+      ]
+    },
+    {
+      "message": "No doctors available",
+      "key": "no_doctors_available",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/doctors_view/my_doctor_view.dart",
+          "start": 2039,
+          "snippet": "No doctors available"
+        }
+      ]
+    },
+    {
+      "message": "Sign-in cancelled or failed",
+      "key": "sign_in_cancelled_or_failed",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/login/login_view.dart",
+          "start": 4049,
+          "snippet": "Sign-in cancelled or failed"
+        }
+      ]
+    },
+    {
+      "message": "Account not found. Please sign up first.",
+      "key": "account_not_found_please_sign_up_first",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/login/login_view.dart",
+          "start": 4521,
+          "snippet": "Account not found. Please sign up first."
+        }
+      ]
+    },
+    {
+      "message": "Welcome ${userModel.nama.isNotEmpty ? userModel.nama : 'User'}!",
+      "key": "welcome",
+      "placeholders": [
+        "userModel_nama_isNotEmpty___userModel_nama____User"
+      ],
+      "occurrences": [
+        {
+          "file": "lib/views/login/login_view.dart",
+          "start": 4862,
+          "snippet": "Welcome ${userModel.nama.isNotEmpty ? userModel.nama : 'User'}!"
+        }
+      ]
+    },
+    {
+      "message": "Sign-in failed: ${e.message ?? e.code}",
+      "key": "sign_in_failed",
+      "placeholders": [
+        "e_message____e_code"
+      ],
+      "occurrences": [
+        {
+          "file": "lib/views/login/login_view.dart",
+          "start": 5823,
+          "snippet": "Sign-in failed: ${e.message ?? e.code}"
+        }
+      ]
+    },
+    {
+      "message": "Sign-in failed",
+      "key": "sign_in_failed_1",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/login/login_view.dart",
+          "start": 6147,
+          "snippet": "Sign-in failed"
+        }
+      ]
+    },
+    {
+      "message": "OTP sent to $phoneNumber",
+      "key": "otp_sent_to_phonenumber",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/login/login_view.dart",
+          "start": 7035,
+          "snippet": "OTP sent to $phoneNumber"
+        }
+      ]
+    },
+    {
+      "message": "Failed to send OTP Phone not registered",
+      "key": "failed_to_send_otp_phone_not_registered",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/login/login_view.dart",
+          "start": 7298,
+          "snippet": "Failed to send OTP Phone not registered"
+        }
+      ]
+    },
+    {
+      "message": "Success",
+      "key": "success",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/login/login_view.dart",
+          "start": 7970,
+          "snippet": "Success"
+        }
+      ]
+    },
+    {
+      "message": "OTP verified successfully!",
+      "key": "otp_verified_successfully",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/login/login_view.dart",
+          "start": 8024,
+          "snippet": "OTP verified successfully!"
+        }
+      ]
+    },
+    {
+      "message": "Failed",
+      "key": "failed",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/login/login_view.dart",
+          "start": 8495,
+          "snippet": "Failed"
+        },
+        {
+          "file": "lib/views/login/login_view.dart",
+          "start": 8905,
+          "snippet": "Failed"
+        }
+      ]
+    },
+    {
+      "message": "Invalid OTP. Please try again.",
+      "key": "invalid_otp_please_try_again",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/login/login_view.dart",
+          "start": 8548,
+          "snippet": "Invalid OTP. Please try again."
+        }
+      ]
+    },
+    {
+      "message": "Verification failed",
+      "key": "verification_failed",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/login/login_view.dart",
+          "start": 8956,
+          "snippet": "Verification failed"
+        }
+      ]
+    },
+    {
+      "message": "Enter Verification Code",
+      "key": "enter_verification_code",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/login/login_view.dart",
+          "start": 12843,
+          "snippet": "Enter Verification Code"
+        }
+      ]
+    },
+    {
+      "message": "We sent a verification code to",
+      "key": "we_sent_a_verification_code_to",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/login/login_view.dart",
+          "start": 13785,
+          "snippet": "We sent a verification code to"
+        }
+      ]
+    },
+    {
+      "message": "Didn't receive the code? ",
+      "key": "didn_t_receive_the_code",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/login/login_view.dart",
+          "start": 23916,
+          "snippet": "Didn't receive the code? "
+        }
+      ]
+    },
+    {
+      "message": "Resend",
+      "key": "resend",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/login/login_view.dart",
+          "start": 24378,
+          "snippet": "Resend"
+        }
+      ]
+    },
+    {
+      "message": "Select Country",
+      "key": "select_country",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/login/login_view.dart",
+          "start": 28793,
+          "snippet": "Select Country"
+        },
+        {
+          "file": "lib/views/profile/profile_view.dart",
+          "start": 10017,
+          "snippet": "Select Country"
+        }
+      ]
+    },
+    {
+      "message": "Welcome Back",
+      "key": "welcome_back",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/login/login_view.dart",
+          "start": 38723,
+          "snippet": "Welcome Back"
+        }
+      ]
+    },
+    {
+      "message": "Please enter your phone number to continue",
+      "key": "please_enter_your_phone_number_to_continue",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/login/login_view.dart",
+          "start": 39142,
+          "snippet": "Please enter your phone number to continue"
+        }
+      ]
+    },
+    {
+      "message": "Enter phone number",
+      "key": "enter_phone_number",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/login/login_view.dart",
+          "start": 42914,
+          "snippet": "Enter phone number"
+        }
+      ]
+    },
+    {
+      "message": "Continue",
+      "key": "continue",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/login/login_view.dart",
+          "start": 46145,
+          "snippet": "Continue"
+        }
+      ]
+    },
+    {
+      "message": "Continue as Guest",
+      "key": "continue_as_guest",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/login/login_view.dart",
+          "start": 48021,
+          "snippet": "Continue as Guest"
+        }
+      ]
+    },
+    {
+      "message": "OR",
+      "key": "or",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/login/login_view.dart",
+          "start": 49647,
+          "snippet": "OR"
+        }
+      ]
+    },
+    {
+      "message": "Signing in...",
+      "key": "signing_in",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/login/login_view.dart",
+          "start": 51653,
+          "snippet": "Signing in..."
+        }
+      ]
+    },
+    {
+      "message": "Continue with Google",
+      "key": "continue_with_google",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/login/login_view.dart",
+          "start": 51713,
+          "snippet": "Continue with Google"
+        }
+      ]
+    },
+    {
+      "message": "Need help signing in?",
+      "key": "need_help_signing_in",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/login/login_view.dart",
+          "start": 53917,
+          "snippet": "Need help signing in?"
+        }
+      ]
+    },
+    {
+      "message": "Don't have an account? ",
+      "key": "don_t_have_an_account",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/login/login_view.dart",
+          "start": 54606,
+          "snippet": "Don't have an account? "
+        }
+      ]
+    },
+    {
+      "message": "Choose Your Wellness Package",
+      "key": "choose_your_wellness_package",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/wellness/wellnesss_booking_screen.dart",
+          "start": 6089,
+          "snippet": "Choose Your Wellness Package"
+        }
+      ]
+    },
+    {
+      "message": "Loading packages...",
+      "key": "loading_packages",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/wellness/wellnesss_booking_screen.dart",
+          "start": 6394,
+          "snippet": "Loading packages..."
+        }
+      ]
+    },
+    {
+      "message": "No packages found",
+      "key": "no_packages_found",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/wellness/wellnesss_booking_screen.dart",
+          "start": 6488,
+          "snippet": "No packages found"
+        },
+        {
+          "file": "lib/views/wellness/wellnesss_booking_screen.dart",
+          "start": 7110,
+          "snippet": "No packages found"
+        }
+      ]
+    },
+    {
+      "message": "Choose your wellness package",
+      "key": "choose_your_wellness_package_1",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/wellness/wellnesss_booking_screen.dart",
+          "start": 6544,
+          "snippet": "Choose your wellness package"
+        }
+      ]
+    },
+    {
+      "message": "Select Date",
+      "key": "select_date",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/wellness/wellnesss_booking_screen.dart",
+          "start": 8377,
+          "snippet": "Select Date"
+        },
+        {
+          "file": "lib/views/book_appointment/my_book_appointment_widget_view.dart",
+          "start": 1424,
+          "snippet": "Select Date"
+        }
+      ]
+    },
+    {
+      "message": "Select Time",
+      "key": "select_time",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/wellness/wellnesss_booking_screen.dart",
+          "start": 9504,
+          "snippet": "Select Time"
+        },
+        {
+          "file": "lib/views/book_appointment/my_book_appointment_widget_view.dart",
+          "start": 2123,
+          "snippet": "Select Time"
+        }
+      ]
+    },
+    {
+      "message": "Halo, saya ingin bertanya tentang jadwal Wellness.",
+      "key": "halo_saya_ingin_bertanya_tentang_jadwal_wellness",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/wellness/wellnesss_booking_screen.dart",
+          "start": 10189,
+          "snippet": "Halo, saya ingin bertanya tentang jadwal Wellness."
+        }
+      ]
+    },
+    {
+      "message": "No available time slots",
+      "key": "no_available_time_slots",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/wellness/wellnesss_booking_screen.dart",
+          "start": 10463,
+          "snippet": "No available time slots"
+        },
+        {
+          "file": "lib/views/wellness/mcu_booking_scree.dart",
+          "start": 28211,
+          "snippet": "No available time slots"
+        }
+      ]
+    },
+    {
+      "message": "Review & Confirm",
+      "key": "review_confirm",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/wellness/wellnesss_booking_screen.dart",
+          "start": 13328,
+          "snippet": "Review & Confirm"
+        },
+        {
+          "file": "lib/views/wellness/mcu_booking_scree.dart",
+          "start": 31252,
+          "snippet": "Review & Confirm"
+        }
+      ]
+    },
+    {
+      "message": "Please review your appointment details",
+      "key": "please_review_your_appointment_details",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/wellness/wellnesss_booking_screen.dart",
+          "start": 13587,
+          "snippet": "Please review your appointment details"
+        },
+        {
+          "file": "lib/views/wellness/mcu_booking_scree.dart",
+          "start": 31511,
+          "snippet": "Please review your appointment details"
+        }
+      ]
+    },
+    {
+      "message": "Please sign in first",
+      "key": "please_sign_in_first",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/wellness/wellnesss_booking_screen.dart",
+          "start": 23674,
+          "snippet": "Please sign in first"
+        }
+      ]
+    },
+    {
+      "message": "Something went wrong: $e",
+      "key": "something_went_wrong_e",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/wellness/wellnesss_booking_screen.dart",
+          "start": 24355,
+          "snippet": "Something went wrong: $e"
+        }
+      ]
+    },
+    {
+      "message": "Booking Confirmed!",
+      "key": "booking_confirmed",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/wellness/wellnesss_booking_screen.dart",
+          "start": 25601,
+          "snippet": "Booking Confirmed!"
+        },
+        {
+          "file": "lib/views/wellness/mcu_booking_scree.dart",
+          "start": 45129,
+          "snippet": "Booking Confirmed!"
+        }
+      ]
+    },
+    {
+      "message": "Booking Failed",
+      "key": "booking_failed",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/wellness/wellnesss_booking_screen.dart",
+          "start": 25658,
+          "snippet": "Booking Failed"
+        },
+        {
+          "file": "lib/views/wellness/mcu_booking_scree.dart",
+          "start": 45166,
+          "snippet": "Booking Failed"
+        }
+      ]
+    },
+    {
+      "message": "Booking successfully confirmed",
+      "key": "booking_successfully_confirmed",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/wellness/wellnesss_booking_screen.dart",
+          "start": 26093,
+          "snippet": "Booking successfully confirmed"
+        }
+      ]
+    },
+    {
+      "message": "Failed to confirm booking",
+      "key": "failed_to_confirm_booking",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/wellness/wellnesss_booking_screen.dart",
+          "start": 26166,
+          "snippet": "Failed to confirm booking"
+        }
+      ]
+    },
+    {
+      "message": "Choose your preferred doctor",
+      "key": "choose_your_preferred_doctor",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/wellness/mcu_booking_scree.dart",
+          "start": 6323,
+          "snippet": "Choose your preferred doctor"
+        }
+      ]
+    },
+    {
+      "message": "Select",
+      "key": "select",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/wellness/mcu_booking_scree.dart",
+          "start": 10007,
+          "snippet": "Select"
+        }
+      ]
+    },
+    {
+      "message": "No packages available",
+      "key": "no_packages_available",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/wellness/mcu_booking_scree.dart",
+          "start": 10865,
+          "snippet": "No packages available"
+        }
+      ]
+    },
+    {
+      "message": "Select Date & Time",
+      "key": "select_date_time",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/wellness/mcu_booking_scree.dart",
+          "start": 23488,
+          "snippet": "Select Date & Time"
+        }
+      ]
+    },
+    {
+      "message": "Choose your preferred appointment slot",
+      "key": "choose_your_preferred_appointment_slot",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/wellness/mcu_booking_scree.dart",
+          "start": 23749,
+          "snippet": "Choose your preferred appointment slot"
+        }
+      ]
+    },
+    {
+      "message": "Available Dates",
+      "key": "available_dates",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/wellness/mcu_booking_scree.dart",
+          "start": 23988,
+          "snippet": "Available Dates"
+        }
+      ]
+    },
+    {
+      "message": "Available Times",
+      "key": "available_times",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/wellness/mcu_booking_scree.dart",
+          "start": 24311,
+          "snippet": "Available Times"
+        }
+      ]
+    },
+    {
+      "message": "Halo, saya ingin bertanya tentang jadwal MCU.",
+      "key": "halo_saya_ingin_bertanya_tentang_jadwal_mcu",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/wellness/mcu_booking_scree.dart",
+          "start": 27959,
+          "snippet": "Halo, saya ingin bertanya tentang jadwal MCU."
+        }
+      ]
+    },
+    {
+      "message": "Back",
+      "key": "back",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/wellness/mcu_booking_scree.dart",
+          "start": 35797,
+          "snippet": "Back"
+        }
+      ]
+    },
+    {
+      "message": "Confirm Booking",
+      "key": "confirm_booking",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/wellness/mcu_booking_scree.dart",
+          "start": 37790,
+          "snippet": "Confirm Booking"
+        }
+      ]
+    },
+    {
+      "message": "Next",
+      "key": "next",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/wellness/mcu_booking_scree.dart",
+          "start": 37824,
+          "snippet": "Next"
+        }
+      ]
+    },
+    {
+      "message": "Booking successfully but code is not available",
+      "key": "booking_successfully_but_code_is_not_available",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/wellness/mcu_booking_scree.dart",
+          "start": 45625,
+          "snippet": "Booking successfully but code is not available"
+        }
+      ]
+    },
+    {
+      "message": "Failed to book",
+      "key": "failed_to_book",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/wellness/mcu_booking_scree.dart",
+          "start": 45716,
+          "snippet": "Failed to book"
+        }
+      ]
+    },
+    {
+      "message": "Book Appointment",
+      "key": "book_appointment",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/book_appointment/my_book_appointment_widget_view.dart",
+          "start": 1005,
+          "snippet": "Book Appointment"
+        },
+        {
+          "file": "lib/views/doctor_details/doctor_details_view.dart",
+          "start": 18090,
+          "snippet": "Book Appointment"
+        }
+      ]
+    },
+    {
+      "message": "Confirm",
+      "key": "confirm",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/book_appointment/my_book_appointment_widget_view.dart",
+          "start": 2646,
+          "snippet": "Confirm"
+        }
+      ]
+    },
+    {
+      "message": "Congratulations!",
+      "key": "congratulations",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/book_appointment/my_book_appointment_widget_view.dart",
+          "start": 3442,
+          "snippet": "Congratulations!"
+        }
+      ]
+    },
+    {
+      "message": "Your appointment is booked for:",
+      "key": "your_appointment_is_booked_for",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/book_appointment/my_book_appointment_widget_view.dart",
+          "start": 3723,
+          "snippet": "Your appointment is booked for:"
+        }
+      ]
+    },
+    {
+      "message": "Thank you for using our service!",
+      "key": "thank_you_for_using_our_service",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/book_appointment/my_book_appointment_widget_view.dart",
+          "start": 4555,
+          "snippet": "Thank you for using our service!"
+        }
+      ]
+    },
+    {
+      "message": "Permission denied to access storage",
+      "key": "permission_denied_to_access_storage",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/examination_result/examination_result_screen.dart",
+          "start": 2199,
+          "snippet": "Permission denied to access storage"
+        }
+      ]
+    },
+    {
+      "message": "File saved to Download/${fileName}.pdf",
+      "key": "file_saved_to_download_pdf",
+      "placeholders": [
+        "fileName"
+      ],
+      "occurrences": [
+        {
+          "file": "lib/views/examination_result/examination_result_screen.dart",
+          "start": 3263,
+          "snippet": "File saved to Download/${fileName}.pdf"
+        }
+      ]
+    },
+    {
+      "message": "Failed to download file",
+      "key": "failed_to_download_file",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/examination_result/examination_result_screen.dart",
+          "start": 3572,
+          "snippet": "Failed to download file"
+        }
+      ]
+    },
+    {
+      "message": "No PDF available for this result",
+      "key": "no_pdf_available_for_this_result",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/examination_result/examination_result_screen.dart",
+          "start": 5123,
+          "snippet": "No PDF available for this result"
+        }
+      ]
+    },
+    {
+      "message": "Error: ${provider.errorMenu}",
+      "key": "error_1",
+      "placeholders": [
+        "provider_errorMenu"
+      ],
+      "occurrences": [
+        {
+          "file": "lib/views/examination_result/examination_result_screen.dart",
+          "start": 8226,
+          "snippet": "Error: ${provider.errorMenu}"
+        }
+      ]
+    },
+    {
+      "message": "Examination Results",
+      "key": "examination_results",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/examination_result/examination_result_screen.dart",
+          "start": 8388,
+          "snippet": "Examination Results"
+        }
+      ]
+    },
+    {
+      "message": "Gallery",
+      "key": "gallery",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/profile/profile_view.dart",
+          "start": 6781,
+          "snippet": "Gallery"
+        }
+      ]
+    },
+    {
+      "message": "Camera",
+      "key": "camera",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/profile/profile_view.dart",
+          "start": 7006,
+          "snippet": "Camera"
+        }
+      ]
+    },
+    {
+      "message": "Failed to pick image",
+      "key": "failed_to_pick_image",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/profile/profile_view.dart",
+          "start": 7556,
+          "snippet": "Failed to pick image"
+        }
+      ]
+    },
+    {
+      "message": "My Card",
+      "key": "my_card",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/profile/user_card_view.dart",
+          "start": 1910,
+          "snippet": "My Card"
+        }
+      ]
+    },
+    {
+      "message": "Card Information",
+      "key": "card_information",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/profile/user_card_view.dart",
+          "start": 3885,
+          "snippet": "Card Information"
+        }
+      ]
+    },
+    {
+      "message": "Got it",
+      "key": "got_it",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/profile/user_card_view.dart",
+          "start": 4821,
+          "snippet": "Got it"
+        }
+      ]
+    },
+    {
+      "message": "Personal Information",
+      "key": "personal_information",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/profile/user_card_view.dart",
+          "start": 9401,
+          "snippet": "Personal Information"
+        }
+      ]
+    },
+    {
+      "message": "Hide Info",
+      "key": "hide_info",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/profile/user_card_view.dart",
+          "start": 9778,
+          "snippet": "Hide Info"
+        }
+      ]
+    },
+    {
+      "message": "Show Info",
+      "key": "show_info",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/profile/user_card_view.dart",
+          "start": 9836,
+          "snippet": "Show Info"
+        }
+      ]
+    },
+    {
+      "message": "Medical Record No.",
+      "key": "medical_record_no",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/profile/user_card_view.dart",
+          "start": 10803,
+          "snippet": "Medical Record No."
+        }
+      ]
+    },
+    {
+      "message": "Email",
+      "key": "email",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/profile/user_card_view.dart",
+          "start": 11505,
+          "snippet": "Email"
+        }
+      ]
+    },
+    {
+      "message": "Date of Birth",
+      "key": "date_of_birth",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/profile/user_card_view.dart",
+          "start": 12046,
+          "snippet": "Date of Birth"
+        }
+      ]
+    },
+    {
+      "message": "Doctor Details",
+      "key": "doctor_details",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/doctor_details/doctor_details_view.dart",
+          "start": 1696,
+          "snippet": "Doctor Details"
+        }
+      ]
+    },
+    {
+      "message": "Doctor detail is empty",
+      "key": "doctor_detail_is_empty",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/doctor_details/doctor_details_view.dart",
+          "start": 3325,
+          "snippet": "Doctor detail is empty"
+        }
+      ]
+    },
+    {
+      "message": "Doctor attributes are unavailable",
+      "key": "doctor_attributes_are_unavailable",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/doctor_details/doctor_details_view.dart",
+          "start": 4122,
+          "snippet": "Doctor attributes are unavailable"
+        }
+      ]
+    },
+    {
+      "message": "Name not available",
+      "key": "name_not_available",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/doctor_details/doctor_details_view.dart",
+          "start": 6844,
+          "snippet": "Name not available"
+        }
+      ]
+    },
+    {
+      "message": "Specialization not available",
+      "key": "specialization_not_available",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/doctor_details/doctor_details_view.dart",
+          "start": 8430,
+          "snippet": "Specialization not available"
+        }
+      ]
+    },
+    {
+      "message": "About",
+      "key": "about",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/doctor_details/doctor_details_view.dart",
+          "start": 10979,
+          "snippet": "About"
+        }
+      ]
+    },
+    {
+      "message": "No description available for this doctor.",
+      "key": "no_description_available_for_this_doctor",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/doctor_details/doctor_details_view.dart",
+          "start": 12027,
+          "snippet": "No description available for this doctor."
+        }
+      ]
+    },
+    {
+      "message": " Show more",
+      "key": "show_more",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/doctor_details/doctor_details_view.dart",
+          "start": 12263,
+          "snippet": " Show more"
+        }
+      ]
+    },
+    {
+      "message": " Show less",
+      "key": "show_less",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/doctor_details/doctor_details_view.dart",
+          "start": 12329,
+          "snippet": " Show less"
+        }
+      ]
+    },
+    {
+      "message": "Education",
+      "key": "education",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/doctor_details/doctor_details_view.dart",
+          "start": 13175,
+          "snippet": "Education"
+        }
+      ]
+    },
+    {
+      "message": "No education data available",
+      "key": "no_education_data_available",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/doctor_details/doctor_details_view.dart",
+          "start": 14348,
+          "snippet": "No education data available"
+        }
+      ]
+    },
+    {
+      "message": "No certification data available",
+      "key": "no_certification_data_available",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/doctor_details/doctor_details_view.dart",
+          "start": 15751,
+          "snippet": "No certification data available"
+        }
+      ]
+    },
+    {
+      "message": "Unknown",
+      "key": "unknown",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/doctor_details/doctor_details_view.dart",
+          "start": 20566,
+          "snippet": "Unknown"
+        },
+        {
+          "file": "lib/views/doctor_details/doctor_details_view.dart",
+          "start": 22103,
+          "snippet": "Unknown"
+        }
+      ]
+    },
+    {
+      "message": "Terms & Conditions",
+      "key": "terms_conditions",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/term_conditions/term_conditions_view.dart",
+          "start": 1496,
+          "snippet": "Terms & Conditions"
+        }
+      ]
+    },
+    {
+      "message": "Error: ${provider.errorMessage}",
+      "key": "error_2",
+      "placeholders": [
+        "provider_errorMessage"
+      ],
+      "occurrences": [
+        {
+          "file": "lib/views/our_facility/our_facility_screen.dart",
+          "start": 1672,
+          "snippet": "Error: ${provider.errorMessage}"
+        }
+      ]
+    },
+    {
+      "message": "No facilities found",
+      "key": "no_facilities_found",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/our_facility/our_facility_screen.dart",
+          "start": 1977,
+          "snippet": "No facilities found"
+        }
+      ]
+    },
+    {
+      "message": "Sorry we cannot open WhatsApp on this device.",
+      "key": "sorry_we_cannot_open_whatsapp_on_this_device",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/bottom_navigation_bar/bottom_navigation_bar_view.dart",
+          "start": 1299,
+          "snippet": "Sorry we cannot open WhatsApp on this device."
+        }
+      ]
+    },
+    {
+      "message": "ACTIVE",
+      "key": "active",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/promos/detail_promo_screen.dart",
+          "start": 5135,
+          "snippet": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "message": "INACTIVE",
+      "key": "inactive",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/promos/detail_promo_screen.dart",
+          "start": 5196,
+          "snippet": "INACTIVE"
+        }
+      ]
+    },
+    {
+      "message": "Validity Period",
+      "key": "validity_period",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/promos/detail_promo_screen.dart",
+          "start": 7107,
+          "snippet": "Validity Period"
+        }
+      ]
+    },
+    {
+      "message": "USE PROMO NOW",
+      "key": "use_promo_now",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/promos/detail_promo_screen.dart",
+          "start": 9812,
+          "snippet": "USE PROMO NOW"
+        }
+      ]
+    },
+    {
+      "message": "PROMO UNAVAILABLE",
+      "key": "promo_unavailable",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/promos/detail_promo_screen.dart",
+          "start": 9858,
+          "snippet": "PROMO UNAVAILABLE"
+        }
+      ]
+    },
+    {
+      "message": "🎉 Promo ${widget.promo.title} successfully used!",
+      "key": "promo_successfully_used",
+      "placeholders": [
+        "widget_promo_title"
+      ],
+      "occurrences": [
+        {
+          "file": "lib/views/promos/detail_promo_screen.dart",
+          "start": 11051,
+          "snippet": "🎉 Promo ${widget.promo.title} successfully used!"
+        }
+      ]
+    },
+    {
+      "message": "📤 Sharing promo...",
+      "key": "sharing_promo",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/promos/detail_promo_screen.dart",
+          "start": 11565,
+          "snippet": "📤 Sharing promo..."
+        }
+      ]
+    },
+    {
+      "message": "💾 Promo saved to favorites!",
+      "key": "promo_saved_to_favorites",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/promos/detail_promo_screen.dart",
+          "start": 11828,
+          "snippet": "💾 Promo saved to favorites!"
+        }
+      ]
+    },
+    {
+      "message": "Laboratory Order",
+      "key": "laboratory_order",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/examination_order/labolatory/order_labolatory_view.dart",
+          "start": 2099,
+          "snippet": "Laboratory Order"
+        }
+      ]
+    },
+    {
+      "message": "Search laboratory ...",
+      "key": "search_laboratory",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/examination_order/labolatory/order_labolatory_view.dart",
+          "start": 2936,
+          "snippet": "Search laboratory ..."
+        }
+      ]
+    },
+    {
+      "message": "Error: ",
+      "key": "error_3",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/examination_order/labolatory/order_labolatory_view.dart",
+          "start": 4428,
+          "snippet": "Error: "
+        },
+        {
+          "file": "lib/views/examination_order/radiology/order_radiology_view.dart",
+          "start": 4737,
+          "snippet": "Error: "
+        }
+      ]
+    },
+    {
+      "message": "No laboratory data",
+      "key": "no_laboratory_data",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/examination_order/labolatory/order_labolatory_view.dart",
+          "start": 5050,
+          "snippet": "No laboratory data"
+        }
+      ]
+    },
+    {
+      "message": "Selected : ",
+      "key": "selected",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/examination_order/labolatory/order_labolatory_view.dart",
+          "start": 15375,
+          "snippet": "Selected : "
+        }
+      ]
+    },
+    {
+      "message": "Total: ",
+      "key": "total",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/examination_order/labolatory/order_labolatory_view.dart",
+          "start": 15957,
+          "snippet": "Total: "
+        }
+      ]
+    },
+    {
+      "message": "Order Confirmation",
+      "key": "order_confirmation",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/examination_order/labolatory/order_labolatory_view.dart",
+          "start": 16766,
+          "snippet": "Order Confirmation"
+        },
+        {
+          "file": "lib/views/examination_order/radiology/order_radiology_view.dart",
+          "start": 12651,
+          "snippet": "Order Confirmation"
+        }
+      ]
+    },
+    {
+      "message": "Cancel",
+      "key": "cancel",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/examination_order/labolatory/order_labolatory_view.dart",
+          "start": 17464,
+          "snippet": "Cancel"
+        },
+        {
+          "file": "lib/views/examination_order/radiology/order_radiology_view.dart",
+          "start": 13233,
+          "snippet": "Cancel"
+        }
+      ]
+    },
+    {
+      "message": "Order submitted! Proceed to booking.",
+      "key": "order_submitted_proceed_to_booking",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/examination_order/labolatory/order_labolatory_view.dart",
+          "start": 18902,
+          "snippet": "Order submitted! Proceed to booking."
+        },
+        {
+          "file": "lib/views/examination_order/radiology/order_radiology_view.dart",
+          "start": 14594,
+          "snippet": "Order submitted! Proceed to booking."
+        }
+      ]
+    },
+    {
+      "message": "Place Order",
+      "key": "place_order",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/examination_order/labolatory/order_labolatory_view.dart",
+          "start": 19194,
+          "snippet": "Place Order"
+        },
+        {
+          "file": "lib/views/examination_order/labolatory/order_labolatory_view.dart",
+          "start": 20122,
+          "snippet": "Place Order"
+        },
+        {
+          "file": "lib/views/examination_order/radiology/order_radiology_view.dart",
+          "start": 15722,
+          "snippet": "Place Order"
+        }
+      ]
+    },
+    {
+      "message": "Order Radiology",
+      "key": "order_radiology",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/examination_order/radiology/order_radiology_view.dart",
+          "start": 2235,
+          "snippet": "Order Radiology"
+        }
+      ]
+    },
+    {
+      "message": "Search radiology...",
+      "key": "search_radiology",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/examination_order/radiology/order_radiology_view.dart",
+          "start": 3021,
+          "snippet": "Search radiology..."
+        }
+      ]
+    },
+    {
+      "message": "No radiology items",
+      "key": "no_radiology_items",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/examination_order/radiology/order_radiology_view.dart",
+          "start": 5287,
+          "snippet": "No radiology items"
+        }
+      ]
+    },
+    {
+      "message": "No matching results",
+      "key": "no_matching_results",
+      "placeholders": [],
+      "occurrences": [
+        {
+          "file": "lib/views/examination_order/radiology/order_radiology_view.dart",
+          "start": 5891,
+          "snippet": "No matching results"
+        }
+      ]
+    },
+    {
+      "message": "Selected: ${_selectedIds.length}",
+      "key": "selected_1",
+      "placeholders": [
+        "selectedIds_length"
+      ],
+      "occurrences": [
+        {
+          "file": "lib/views/examination_order/radiology/order_radiology_view.dart",
+          "start": 11340,
+          "snippet": "Selected: ${_selectedIds.length}"
+        }
+      ]
+    },
+    {
+      "message": "Total: ${_formatPrice(_totalPrice)}",
+      "key": "total_1",
+      "placeholders": [
+        "formatPrice__totalPrice"
+      ],
+      "occurrences": [
+        {
+          "file": "lib/views/examination_order/radiology/order_radiology_view.dart",
+          "start": 11881,
+          "snippet": "Total: ${_formatPrice(_totalPrice)}"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "312211563911",
+    "project_id": "nswac-app",
+    "storage_bucket": "nswac-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:312211563911:android:009486d90999d0c2631f22",
+        "android_client_info": {
+          "package_name": "com.ngoerahsunwac.mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "312211563911-4isqm6m3sf7661vhn3k6lofmhcenc172.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ngoerahsunwac.mobile",
+            "certificate_hash": "d9fea988f55881f2c3fb7f53299065c83ec432a0"
+          }
+        },
+        {
+          "client_id": "312211563911-27hm18oap2jhq61u0kakoarrmhfs6k36.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCy8qdMsxrbQ52t0Tfiw6trS7rALVWEL6w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "312211563911-27hm18oap2jhq61u0kakoarrmhfs6k36.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "312211563911-h4mr8lt73epjp68iijn0v6pna3rrb3t6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.ngoerahsun"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

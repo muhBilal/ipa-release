@@ -1,0 +1,577 @@
+{
+  "@@locale": "en",
+
+  "wellnessServicesTitle": "Wellness Services",
+  "wellnessChooseServiceTitle": "Choose Your Wellness Service",
+  "wellnessChooseServiceSubtitle": "Select the type of wellness service you need",
+
+  "wellnessCardMcuTitle": "Medical Checkup",
+  "wellnessCardMcuSubtitle": "Complete medical examination",
+  "wellnessCardWellnessTitle": "Wellness",
+  "wellnessCardWellnessSubtitle": "Comprehensive health assessment",
+  "wellnessCardHealthScreeningTitle": "Health Screening",
+  "wellnessCardHealthScreeningSubtitle": "Preventive health tests",
+  "wellnessCardNutritionTitle": "Nutrition Consultation",
+  "wellnessCardNutritionSubtitle": "Dietary guidance and planning",
+
+  "bookingStepChooseDoctor": "Choose Doctor",
+  "bookingStepChoosePoli": "Choose Poli",
+  "bookingStepSelectDateTime": "Select Date & Time",
+  "bookingStepReviewConfirm": "Review & Confirm",
+
+  "bookingChooseDoctorTitle": "Choose Your Doctor",
+  "bookingChooseDoctorSubtitle": "Select from our top specialist doctors",
+  "bookingChoosePoliTitle": "Choose Poli",
+  "bookingChoosePoliSubtitle": "Select your preferred poli",
+
+  "bookingSelectedDoctor": "Selected doctor: {name}",
+  "@bookingSelectedDoctor": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+
+  "bookingAvailableDates": "Available Dates",
+  "bookingAvailableTimes": "Available Times",
+  "bookingNoTimeSlots": "No available time slots",
+  "bookingNoPoliAvailable": "No poli available",
+
+  "bookingReviewConfirmTitle": "Review & Confirm",
+  "bookingReviewConfirmSubtitle": "Please review your appointment details",
+
+  "bookingSummaryDoctor": "Doctor",
+  "bookingSummaryPoli": "Poli",
+  "bookingSummaryDate": "Date",
+  "bookingSummaryTime": "Time",
+  "bookingNotSelected": "Not selected",
+
+  "bookingBtnBack": "Back",
+  "bookingBtnContinue": "Continue",
+  "bookingBtnConfirmBooking": "Confirm Booking",
+  "bookingBtnDone": "Done",
+
+  "bookingResultSuccessTitle": "Booking Confirmed!",
+  "bookingResultFailureTitle": "Booking Failed",
+  "bookingResultSuccessDefaultMessage": "Your appointment has been successfully booked.",
+  "bookingResultSuccessWithCode": "Your appointment has been successfully booked.\nCode: {code}",
+  "@bookingResultSuccessWithCode": {
+    "placeholders": {
+      "code": { "type": "String" }
+    }
+  },
+
+  "bookingResultGenericError": "Something went wrong. Please try again.",
+  "bookingNetworkError": "Network error: {error}",
+  "@bookingNetworkError": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+
+  "dashboardLocationLabel": "Location",
+  "dashboardLocationDefault": "Denpasar, Bali, Indonesia",
+  "dashboardSearchDoctorHint": "Search Doctor",
+  "dashboardCategories": "Categories",
+  "commonSeeAll": "See All",
+
+  "dashboardArticleUpdates": "Articles & Updates",
+  "dashboardChooseExaminationType": "Choose Examination Type",
+
+  "examLaboratory": "Laboratory",
+  "examRadiology": "Radiology",
+  "commonClose": "Close",
+
+  "dashboardCardWellness": "Wellness",
+  "dashboardCardPlasticSurgery": "Plastic Surgery",
+  "dashboardCardDermaesthetic": "Dermaesthetic",
+  "dashboardCardAestheticDentistry": "Aesthetic Dentistry",
+  "dashboardCardExaminationOrder": "Examination Order",
+  "dashboardCardExaminationResult": "Examination Result",
+  "dashboardCardAboutUs": "About Us",
+  "dashboardCardOurFacilities": "Our Facilities",
+
+  "profileTitle": "User Profile",
+  "profileMenuEditProfile": "Edit Profile",
+  "profileMenuCard": "Patient Card",
+  "profileMenuFavorite": "Favorite",
+  "profileMenuNotifications": "Notifications",
+  "profileMenuSettings": "Settings",
+  "profileMenuChangeLanguage": "Change Language",
+  "profileMenuHelpSupport": "Help & Support",
+  "profileMenuTerms": "Terms & Conditions",
+  "profileMenuLogout": "Log Out",
+
+  "profileGuest": "Guest",
+  "profileLogoutTitle": "Log Out",
+  "profileLogoutMessage": "Are you sure you want to log out?",
+  "profileLogoutCancel": "Cancel",
+  "profileLogoutConfirm": "Yes, Logout",
+
+  "langChangeTitle": "Change Language",
+  "langIndonesian": "Indonesian",
+  "langEnglish": "English",
+  "langSavedToast": "Language changed to {lang}",
+  "@langSavedToast": {
+    "placeholders": {
+      "lang": { "type": "String" }
+    }
+  },
+
+  "doctorsAllTitle": "All Doctors",
+  "doctorsFoundCount": "{count, plural, =0 {No doctors found} one {1 doctor found} other {{count} doctors found}}",
+
+  "commonDefault": "Default",
+
+  "myBookingTitle": "My Bookings",
+  "bookingTabUpcoming": "Upcoming",
+  "bookingTabCompleted": "Completed",
+  "bookingTabCancelled": "Cancelled",
+
+  "profileEditTitle": "Edit Profile",
+  "profileSectionPersonalInfo": "Personal Information",
+  "profileSectionIdentity": "Identity",
+  "profileSectionAdditionalInfo": "Additional Information",
+
+  "profileHintFullName": "Full Name",
+  "profileHintEmail": "Email",
+  "profileHintPhoneNumber": "Phone Number",
+  "profileHintNikNumber": "NIK Number",
+  "profileHintPassportNumber": "Passport Number",
+  "profileHintDateOfBirth": "Date of Birth",
+  "profileHintGender": "Gender",
+
+  "profileLabelNationality": "Nationality",
+  "profileNationalityWni": "Indonesian",
+  "profileNationalityWna": "Foreign Citizen",
+
+  "genderMale": "Male",
+  "genderFemale": "Female",
+
+  "profileBtnSaveChanges": "Save Changes",
+  "profileBtnSaving": "Saving...",
+
+  "profileErrorUserNotFound": "User data not found",
+  "profileErrorInvalidPatientId": "Invalid patient ID",
+  "profileErrorNameRequired": "Name is required",
+  "profileErrorEmailRequired": "Email is required",
+  "profileErrorEmailInvalid": "Invalid email format",
+  "profileErrorPhoneRequired": "Phone number is required",
+  "profileErrorGenderRequired": "Gender is required",
+  "profileErrorGenderInvalid": "Invalid gender",
+
+  "profileSnackbarUpdateSuccess": "Profile updated successfully",
+  "profileSnackbarUpdateFailure": "Failed to update profile",
+
+  "profileDialogCongratsTitle": "Congratulations!",
+  "profileDialogCongratsBody": "Your account is ready to use. You will be redirected to the homepage shortly...",
+
+  "commonSave": "Save",
+  "loginRequiredTitle": "Login Required",
+  "loginRequiredMessage": "Please login first to continue your transaction",
+
+  "bookingNotFound": "Booking not found",
+  "bookingDetails": "Booking Details",
+  "bookingBtnCancel": "Cancel Booking",
+  "bookingBtnReschedule": "Reschedule",
+
+  "bookingRescheduleFlow": "Reschedule flow for {code}",
+  "@bookingRescheduleFlow": {
+    "placeholders": {
+      "code": { "type": "String" }
+    }
+  },
+
+  "bookingCancelled": "Booking cancelled",
+  "bookingCancelError": "Failed to cancel booking: {error}",
+  "@bookingCancelError": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+
+  "bookingNoType": "No {type} bookings",
+  "@bookingNoType": {
+    "placeholders": {
+      "type": { "type": "String" }
+    }
+  },
+
+  "bookingSelectDateError": "Error selecting date: {error}",
+  "@bookingSelectDateError": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+
+  "bookingFetchScheduleError": "Error fetching schedule: {error}",
+  "@bookingFetchScheduleError": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+
+  "bookingSelectTimeFirst": "Please select a time first",
+
+  "rescheduleTitle": "Reschedule Booking",
+  "bookingNoAvailableSchedule": "No available schedule",
+
+  "cannotOpenWhatsApp": "Cannot open WhatsApp",
+  "contactViaWhatsApp": "Contact via WhatsApp",
+
+  "bookingConfirm": "Confirm",
+  "bookingError": "Error: {error}",
+  "@bookingError": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+
+  "storagePermissionDenied": "Storage permission denied",
+  "fileSavedToDownload": "File saved to Download/{file}",
+  "@fileSavedToDownload": {
+    "placeholders": {
+      "file": { "type": "String" }
+    }
+  },
+
+  "failedToDownloadFile": "Failed to download file",
+  "failedToLoadPage": "Failed to load page",
+  "tryAgain": "Try Again",
+
+  "home": "Home",
+  "aboutUs": "About Us",
+  "ngoerahsunHospital": "Ngoerahsun Hospital",
+  "excellenceInHealthcare": "Excellence in Healthcare",
+
+  "aboutDescription": "Ngoerahsun Hospital is a leading healthcare institution in Indonesia, providing international standard medical services backed by advanced technology and experienced medical professionals.",
+
+  "aboutLabel": "About",
+  "ourVisionTitle": "Our Vision",
+  "ourVisionDescription": "To become the leading hospital of choice providing comprehensive, safe, and high-quality healthcare services to all segments of society.",
+
+  "ourMissionTitle": "Our Mission",
+  "ourMissionDescription": "To deliver excellent medical services with a holistic approach, prioritizing patient safety and continuous innovation.",
+
+  "ourExcellenceTitle": "Our Excellence",
+  "ourExcellenceDescription": "Equipped with modern facilities, experienced specialists, 24/7 services, and international accreditation standards.",
+
+  "ourCommitmentTitle": "Our Commitment",
+  "ourCommitmentDescription": "Committed to patient satisfaction through friendly, professional, and empathetic service.",
+
+  "yourHealthOurPriority": "Your Health, Our Priority",
+  "trustedByThousands": "Trusted by thousands of patients across Indonesia",
+
+  "article": "Article",
+  "publishedToday": "Published today",
+
+  "noArticlesFound": "No articles found for \"{query}\".",
+  "@noArticlesFound": {
+    "placeholders": {
+      "query": { "type": "String" }
+    }
+  },
+
+  "noArticlesAvailable": "No articles available at the moment",
+  "all_articles": "All Articles",
+
+  "mcu_questionnaire": "MCU Questionnaire",
+  "my_favorite_doctors": "My Favorite Doctors",
+  "no_favorite_doctors_yet": "No favorite doctors yet",
+  "browse_and_add_doctors_to_your_favorites": "Browse and add doctors to your favorites",
+  "doctor_added_to_favorites": "Doctor added to favorites",
+  "doctor_removed_from_favorites": "Doctor removed from favorites",
+  "failed_to_update_favorite_status": "Failed to update favorite status",
+
+  "notifications": "Notifications",
+  "error": "❌ Error: {provider_error}",
+  "@error": {
+    "placeholders": {
+      "provider_error": { "type": "String" }
+    }
+  },
+
+  "no_notifications_yet": "No notifications yet",
+
+  "sign_in_successful_welcome": "Sign-in successful. Welcome!",
+  "sign_in_failed_error": "Sign-in failed: {error}",
+  "@sign_in_failed_error": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+
+  "name_is_required": "Name is required",
+  "phone_number_is_required": "Phone number is required",
+  "invalid_email_format": "Invalid email format",
+
+  "registration_successful": "Registration successful",
+  "registration_failed_please_try_again": "Registration failed. Please try again.",
+
+  "an_error_occurred_e": "An error occurred: {e}",
+  "@an_error_occurred_e": {
+    "placeholders": {
+      "e": { "type": "String" }
+    }
+  },
+
+  "search_country_or_code": "Search country or code...",
+  "phone_number": "Phone Number",
+  "gender": "Gender",
+  "nationality": "Nationality",
+
+  "create_your_account": "Create Your Account",
+  "please_fill_in_the_details_below_to_create_your_account": "Please fill in the details below to create your account.",
+
+  "full_name": "Full Name",
+  "email_address": "Email Address",
+  "nik_number": "NIK Number",
+  "passport_number": "Passport Number",
+  "sign_up": "Sign Up",
+
+  "by_signing_up_you_agree_to_our_terms_of_service_and_privacy_policy": "By signing up, you agree to our Terms of Service and Privacy Policy.",
+  "already_have_an_account": "Already have an account? ",
+  "sign_in": "Sign In",
+  "retry": "Retry",
+
+  "education_details_are_not_available_right_now": "Education details are not available right now.",
+  "certifications": "Certifications",
+  "certification_details_are_not_available_right_now": "Certification details are not available right now.",
+
+  "general_schedule": "General Schedule",
+  "schedule_details_are_not_available_right_now": "Schedule details are not available right now.",
+
+  "professional_info": "Professional Info",
+  "specialist": "Specialist",
+  "department": "Department",
+  "doctor_id": "Doctor ID",
+  "internal_id": "Internal ID",
+  "department_id": "Department ID",
+
+  "select_doctor": "Select Doctor",
+  "hello_i_would_like_to_inquire_about_the_services": "Hello, I would like to inquire about the services.",
+  "contact_via_whatsapp": "Contact via WhatsApp",
+
+  "identity_not_found_nik_passport": "Identity not found (NIK / Passport)",
+  "no_doctors_available": "No doctors available",
+  "sign_in_cancelled_or_failed": "Sign-in cancelled or failed",
+  "account_not_found_please_sign_up_first": "Account not found. Please sign up first.",
+
+  "welcome": "Welcome {name}!",
+  "@welcome": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+
+  "sign_in_failed": "Sign-in failed: {error}",
+  "@sign_in_failed": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+
+  "sign_in_failed_1": "Sign-in failed",
+  "otp_sent_to_phonenumber": "OTP sent to {phoneNumber}",
+  "@otp_sent_to_phonenumber": {
+    "placeholders": {
+      "phoneNumber": { "type": "String" }
+    }
+  },
+
+  "failed_to_send_otp_phone_not_registered": "Failed to send OTP. Phone number not registered",
+  "success": "Success",
+  "otp_verified_successfully": "OTP verified successfully!",
+  "failed": "Failed",
+  "invalid_otp_please_try_again": "Invalid OTP. Please try again.",
+  "verification_failed": "Verification failed",
+  "enter_verification_code": "Enter Verification Code",
+  "we_sent_a_verification_code_to": "We sent a verification code to",
+  "didn_t_receive_the_code": "Didn't receive the code? ",
+  "resend": "Resend",
+
+  "select_country": "Select Country",
+  "welcome_back": "Welcome Back",
+  "please_enter_your_phone_number_to_continue": "Please enter your phone number to continue",
+  "enter_phone_number": "Enter phone number",
+
+  "continue_label": "Continue",
+  "continue_as_guest": "Continue as Guest",
+  "or": "OR",
+  "signing_in": "Signing in...",
+  "continue_with_google": "Continue with Google",
+  "need_help_signing_in": "Need help signing in?",
+  "don_t_have_an_account": "Don't have an account? ",
+
+  "choose_your_wellness_package": "Choose Your Wellness Package",
+  "loading_packages": "Loading packages...",
+  "no_packages_found": "No packages found",
+  "choose_your_wellness_package_1": "Choose your wellness package",
+
+  "select_date": "Select Date",
+  "select_time": "Select Time",
+
+  "halo_saya_ingin_bertanya_tentang_jadwal_wellness": "Hello, I want to ask about the Wellness schedule.",
+  "no_available_time_slots": "No available time slots",
+
+  "review_confirm": "Review & Confirm",
+  "please_review_your_appointment_details": "Please review your appointment details",
+  "please_sign_in_first": "Please sign in first",
+
+  "something_went_wrong_e": "Something went wrong: {e}",
+  "@something_went_wrong_e": {
+    "placeholders": {
+      "e": { "type": "String" }
+    }
+  },
+
+  "booking_confirmed": "Booking Confirmed!",
+  "booking_failed": "Booking Failed",
+  "booking_successfully_confirmed": "Booking successfully confirmed",
+  "failed_to_confirm_booking": "Failed to confirm booking",
+
+  "choose_your_preferred_doctor": "Choose your preferred doctor",
+  "select": "Select",
+
+  "no_packages_available": "No packages available",
+  "select_date_time": "Select Date & Time",
+  "choose_your_preferred_appointment_slot": "Choose your preferred appointment slot",
+
+  "available_dates": "Available Dates",
+  "available_times": "Available Times",
+
+  "halo_saya_ingin_bertanya_tentang_jadwal_mcu": "Hello, I want to ask about the MCU schedule.",
+
+  "back": "Back",
+  "confirm_booking": "Confirm Booking",
+  "next": "Next",
+
+  "booking_successfully_but_code_is_not_available": "Booking successful but code is not available",
+  "failed_to_book": "Failed to book",
+  "book_appointment": "Book Appointment",
+
+  "confirm": "Confirm",
+  "congratulations": "Congratulations!",
+  "your_appointment_is_booked_for": "Your appointment is booked for:",
+  "thank_you_for_using_our_service": "Thank you for using our service!",
+
+  "permission_denied_to_access_storage": "Permission denied to access storage",
+  "file_saved_to_download_pdf": "File saved to Download/{fileName}.pdf",
+  "@file_saved_to_download_pdf": {
+    "placeholders": {
+      "fileName": { "type": "String" }
+    }
+  },
+
+  "failed_to_download_file": "Failed to download file",
+  "no_pdf_available_for_this_result": "No PDF available for this result",
+
+  "error_1": "Error: {provider_errorMenu}",
+  "@error_1": {
+    "placeholders": {
+      "provider_errorMenu": { "type": "String" }
+    }
+  },
+
+  "examination_results": "Examination Results",
+  "gallery": "Gallery",
+  "camera": "Camera",
+  "failed_to_pick_image": "Failed to pick image",
+
+  "my_card": "My Card",
+  "card_information": "Card Information",
+  "got_it": "Got it",
+
+  "personal_information": "Personal Information",
+  "hide_info": "Hide Info",
+  "show_info": "Show Info",
+
+  "medical_record_no": "Medical Record No.",
+  "email": "Email",
+  "date_of_birth": "Date of Birth",
+
+  "doctor_details": "Doctor Details",
+  "doctor_detail_is_empty": "Doctor detail is empty",
+  "doctor_attributes_are_unavailable": "Doctor attributes are unavailable",
+  "name_not_available": "Name not available",
+  "specialization_not_available": "Specialization not available",
+
+  "about": "About",
+  "no_description_available_for_this_doctor": "No description available for this doctor.",
+  "show_more": "Show more",
+  "show_less": "Show less",
+
+  "education": "Education",
+  "no_education_data_available": "No education data available",
+  "no_certification_data_available": "No certification data available",
+  "unknown": "Unknown",
+
+  "terms_conditions": "Terms & Conditions",
+  "error_2": "Error: {provider_errorMessage}",
+  "@error_2": {
+    "placeholders": {
+      "provider_errorMessage": { "type": "String" }
+    }
+  },
+
+  "no_facilities_found": "No facilities found",
+  "sorry_we_cannot_open_whatsapp_on_this_device": "Sorry, WhatsApp cannot be opened on this device.",
+
+  "active": "ACTIVE",
+  "inactive": "INACTIVE",
+  "validity_period": "Validity Period",
+  "use_promo_now": "USE PROMO NOW",
+  "promo_unavailable": "PROMO UNAVAILABLE",
+
+  "promo_successfully_used": "🎉 Promo {widget_promo_title} successfully used!",
+  "@promo_successfully_used": {
+    "placeholders": {
+      "widget_promo_title": { "type": "String" }
+    }
+  },
+
+  "sharing_promo": "📤 Sharing promo...",
+  "promo_saved_to_favorites": "💾 Promo saved to favorites!",
+
+  "digitalCardInfo": "This digital card represents your patient identity. Scan the barcode for registration or identification at the hospital.",
+
+  "showingBasicProfile": "Showing basic profile. You can continue with this doctor or reload for full details.",
+
+  "orderConfirmationBody": "You selected {count} items.\nTotal: {total}\n\nProceed with the order?",
+  "@orderConfirmationBody": {
+    "placeholders": {
+      "count": { "type": "int" },
+      "total": { "type": "String" }
+    }
+  },
+
+  "laboratory_order": "Laboratory Order",
+  "search_laboratory": "Search laboratory...",
+  "error_3": "Error: ",
+  "no_laboratory_data": "No laboratory data",
+
+  "selected": "Selected: ",
+  "total": "Total: ",
+  "order_confirmation": "Order Confirmation",
+  "cancel": "Cancel",
+  "order_submitted_proceed_to_booking": "Order submitted! Proceed to booking.",
+  "place_order": "Place Order",
+
+  "order_radiology": "Radiology Order",
+  "search_radiology": "Search radiology...",
+  "no_radiology_items": "No radiology items",
+  "no_matching_results": "No matching results",
+
+  "selected_1": "Selected: {count}",
+  "@selected_1": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+
+  "total_1": "Total: {total}",
+  "@total_1": {
+    "placeholders": {
+      "total": { "type": "String" }
+    }
+  }
+}

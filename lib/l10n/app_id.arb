@@ -1,0 +1,576 @@
+{
+  "@@locale": "id",
+
+  "wellnessServicesTitle": "Layanan Wellness",
+  "wellnessChooseServiceTitle": "Pilih Layanan Wellness",
+  "wellnessChooseServiceSubtitle": "Pilih jenis layanan wellness yang Anda butuhkan",
+
+  "wellnessCardMcuTitle": "Medical Checkup",
+  "wellnessCardMcuSubtitle": "Pemeriksaan kesehatan menyeluruh",
+  "wellnessCardWellnessTitle": "Wellness",
+  "wellnessCardWellnessSubtitle": "Penilaian kesehatan komprehensif",
+  "wellnessCardHealthScreeningTitle": "Pemeriksaan Kesehatan",
+  "wellnessCardHealthScreeningSubtitle": "Tes kesehatan preventif",
+  "wellnessCardNutritionTitle": "Konsultasi Gizi",
+  "wellnessCardNutritionSubtitle": "Panduan dan perencanaan diet",
+
+  "bookingStepChooseDoctor": "Pilih Dokter",
+  "bookingStepChoosePoli": "Pilih Poli",
+  "bookingStepSelectDateTime": "Pilih Tanggal & Waktu",
+  "bookingStepReviewConfirm": "Tinjau & Konfirmasi",
+
+  "bookingChooseDoctorTitle": "Pilih Dokter Anda",
+  "bookingChooseDoctorSubtitle": "Pilih dari dokter spesialis terbaik kami",
+  "bookingChoosePoliTitle": "Pilih Poli",
+  "bookingChoosePoliSubtitle": "Pilih poli yang Anda inginkan",
+
+  "bookingSelectedDoctor": "Dokter yang dipilih: {name}",
+  "@bookingSelectedDoctor": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+
+  "bookingAvailableDates": "Tanggal Tersedia",
+  "bookingAvailableTimes": "Waktu Tersedia",
+  "bookingNoTimeSlots": "Tidak ada jadwal tersedia",
+  "bookingNoPoliAvailable": "Poli tidak tersedia",
+
+  "bookingReviewConfirmTitle": "Tinjau & Konfirmasi",
+  "bookingReviewConfirmSubtitle": "Harap tinjau detail janji temu Anda",
+
+  "bookingSummaryDoctor": "Dokter",
+  "bookingSummaryPoli": "Poli",
+  "bookingSummaryDate": "Tanggal",
+  "bookingSummaryTime": "Waktu",
+  "bookingNotSelected": "Belum dipilih",
+
+  "bookingBtnBack": "Kembali",
+  "bookingBtnContinue": "Lanjutkan",
+  "bookingBtnConfirmBooking": "Konfirmasi Booking",
+  "bookingBtnDone": "Selesai",
+
+  "bookingResultSuccessTitle": "Booking Berhasil!",
+  "bookingResultFailureTitle": "Booking Gagal",
+  "bookingResultSuccessDefaultMessage": "Janji temu Anda berhasil dipesan.",
+  "bookingResultSuccessWithCode": "Janji temu Anda berhasil dipesan.\nKode: {code}",
+  "@bookingResultSuccessWithCode": {
+    "placeholders": {
+      "code": { "type": "String" }
+    }
+  },
+
+  "bookingResultGenericError": "Terjadi kesalahan. Silakan coba lagi.",
+  "bookingNetworkError": "Kesalahan jaringan: {error}",
+  "@bookingNetworkError": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+
+  "dashboardLocationLabel": "Lokasi",
+  "dashboardLocationDefault": "Denpasar, Bali, Indonesia",
+  "dashboardSearchDoctorHint": "Cari Dokter",
+  "dashboardCategories": "Kategori",
+  "commonSeeAll": "Lihat Semua",
+
+  "dashboardArticleUpdates": "Artikel & Pembaruan",
+  "dashboardChooseExaminationType": "Pilih Jenis Pemeriksaan",
+
+  "examLaboratory": "Laboratorium",
+  "examRadiology": "Radiologi",
+  "commonClose": "Tutup",
+
+  "dashboardCardWellness": "Wellness",
+  "dashboardCardPlasticSurgery": "Bedah Plastik",
+  "dashboardCardDermaesthetic": "Dermaestetik",
+  "dashboardCardAestheticDentistry": "Kedokteran Gigi Estetik",
+  "dashboardCardExaminationOrder": "Pesanan Pemeriksaan",
+  "dashboardCardExaminationResult": "Hasil Pemeriksaan",
+  "dashboardCardAboutUs": "Tentang Kami",
+  "dashboardCardOurFacilities": "Fasilitas Kami",
+
+  "profileTitle": "Profil Pengguna",
+  "profileMenuEditProfile": "Ubah Profil",
+  "profileMenuCard": "Kartu Pasien",
+  "profileMenuFavorite": "Favorit",
+  "profileMenuNotifications": "Notifikasi",
+  "profileMenuSettings": "Pengaturan",
+  "profileMenuChangeLanguage": "Ganti Bahasa",
+  "profileMenuHelpSupport": "Bantuan & Dukungan",
+  "profileMenuTerms": "Syarat & Ketentuan",
+  "profileMenuLogout": "Keluar",
+
+  "profileGuest": "Tamu",
+  "profileLogoutTitle": "Keluar",
+  "profileLogoutMessage": "Apakah Anda yakin ingin keluar?",
+  "profileLogoutCancel": "Batal",
+  "profileLogoutConfirm": "Ya, Keluar",
+
+  "langChangeTitle": "Ganti Bahasa",
+  "langIndonesian": "Bahasa Indonesia",
+  "langEnglish": "Bahasa Inggris",
+  "langSavedToast": "Bahasa diubah ke {lang}",
+  "@langSavedToast": {
+    "placeholders": {
+      "lang": { "type": "String" }
+    }
+  },
+
+  "doctorsAllTitle": "Semua Dokter",
+  "doctorsFoundCount": "{count, plural, =0 {Tidak ada dokter ditemukan} one {1 dokter ditemukan} other {{count} dokter ditemukan}}",
+
+  "commonDefault": "Default",
+
+  "myBookingTitle": "Booking Saya",
+  "bookingTabUpcoming": "Mendatang",
+  "bookingTabCompleted": "Selesai",
+  "bookingTabCancelled": "Dibatalkan",
+
+  "profileEditTitle": "Ubah Profil",
+  "profileSectionPersonalInfo": "Informasi Pribadi",
+  "profileSectionIdentity": "Identitas",
+  "profileSectionAdditionalInfo": "Informasi Tambahan",
+
+  "profileHintFullName": "Nama Lengkap",
+  "profileHintEmail": "Email",
+  "profileHintPhoneNumber": "Nomor Telepon",
+  "profileHintNikNumber": "Nomor NIK",
+  "profileHintPassportNumber": "Nomor Paspor",
+  "profileHintDateOfBirth": "Tanggal Lahir",
+  "profileHintGender": "Jenis Kelamin",
+
+  "profileLabelNationality": "Kewarganegaraan",
+  "profileNationalityWni": "Warga Negara Indonesia",
+  "profileNationalityWna": "Warga Negara Asing",
+
+  "genderMale": "Laki-laki",
+  "genderFemale": "Perempuan",
+
+  "profileBtnSaveChanges": "Simpan Perubahan",
+  "profileBtnSaving": "Menyimpan...",
+
+  "profileErrorUserNotFound": "Data pengguna tidak ditemukan",
+  "profileErrorInvalidPatientId": "ID pasien tidak valid",
+  "profileErrorNameRequired": "Nama wajib diisi",
+  "profileErrorEmailRequired": "Email wajib diisi",
+  "profileErrorEmailInvalid": "Format email tidak valid",
+  "profileErrorPhoneRequired": "Nomor telepon wajib diisi",
+  "profileErrorGenderRequired": "Jenis kelamin wajib dipilih",
+  "profileErrorGenderInvalid": "Jenis kelamin tidak valid",
+
+  "profileSnackbarUpdateSuccess": "Profil berhasil diperbarui",
+  "profileSnackbarUpdateFailure": "Gagal memperbarui profil",
+
+  "profileDialogCongratsTitle": "Selamat!",
+  "profileDialogCongratsBody": "Akun Anda siap digunakan. Anda akan diarahkan ke halaman beranda dalam beberapa detik...",
+  "commonSave": "Simpan",
+  "loginRequiredTitle": "Perlu Login",
+  "loginRequiredMessage": "Silakan login terlebih dahulu untuk melanjutkan transaksi",
+
+  "bookingNotFound": "Booking tidak ditemukan",
+  "bookingDetails": "Detail Booking",
+  "bookingBtnCancel": "Batalkan Booking",
+  "bookingBtnReschedule": "Jadwalkan Ulang",
+
+  "bookingRescheduleFlow": "Alur penjadwalan ulang untuk {code}",
+  "@bookingRescheduleFlow": {
+    "placeholders": {
+      "code": { "type": "String" }
+    }
+  },
+
+  "bookingCancelled": "Booking dibatalkan",
+  "bookingCancelError": "Gagal membatalkan booking: {error}",
+  "@bookingCancelError": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+
+  "bookingNoType": "Tidak ada booking {type}",
+  "@bookingNoType": {
+    "placeholders": {
+      "type": { "type": "String" }
+    }
+  },
+
+  "bookingSelectDateError": "Gagal memilih tanggal: {error}",
+  "@bookingSelectDateError": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+
+  "bookingFetchScheduleError": "Gagal mengambil jadwal: {error}",
+  "@bookingFetchScheduleError": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+
+  "bookingSelectTimeFirst": "Silakan pilih waktu terlebih dahulu",
+
+  "rescheduleTitle": "Jadwalkan Ulang",
+  "bookingNoAvailableSchedule": "Tidak ada jadwal tersedia",
+
+  "cannotOpenWhatsApp": "Tidak dapat membuka WhatsApp",
+  "contactViaWhatsApp": "Hubungi via WhatsApp",
+
+  "bookingConfirm": "Konfirmasi",
+  "bookingError": "Kesalahan: {error}",
+  "@bookingError": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+
+  "storagePermissionDenied": "Izin penyimpanan ditolak",
+  "fileSavedToDownload": "File disimpan ke Download/{file}",
+  "@fileSavedToDownload": {
+    "placeholders": {
+      "file": { "type": "String" }
+    }
+  },
+
+  "failedToDownloadFile": "Gagal mengunduh file",
+  "failedToLoadPage": "Gagal memuat halaman",
+  "tryAgain": "Coba Lagi",
+
+  "home": "Beranda",
+  "aboutUs": "Tentang Kami",
+  "ngoerahsunHospital": "Rumah Sakit Ngoerahsun",
+  "excellenceInHealthcare": "Keunggulan Dalam Pelayanan Kesehatan",
+
+  "aboutDescription": "Ngoerahsun adalah institusi kesehatan terkemuka di Indonesia yang berkomitmen menyediakan layanan medis berstandar internasional dengan teknologi canggih dan tenaga medis berpengalaman.",
+
+  "aboutLabel": "Tentang",
+  "ourVisionTitle": "Visi Kami",
+  "ourVisionDescription": "Menjadi rumah sakit pilihan utama yang memberikan layanan kesehatan menyeluruh, aman, dan berkualitas tinggi untuk seluruh masyarakat.",
+
+  "ourMissionTitle": "Misi Kami",
+  "ourMissionDescription": "Memberikan layanan medis terbaik dengan pendekatan holistik, mengutamakan keselamatan pasien, dan terus berinovasi dalam bidang kesehatan.",
+
+  "ourExcellenceTitle": "Keunggulan Kami",
+  "ourExcellenceDescription": "Dilengkapi dengan fasilitas medis modern, dokter spesialis berpengalaman, layanan 24 jam, dan standar akreditasi internasional.",
+
+  "ourCommitmentTitle": "Komitmen Kami",
+  "ourCommitmentDescription": "Mengutamakan kepuasan dan pemulihan pasien melalui layanan yang ramah, profesional, dan empatik.",
+
+  "yourHealthOurPriority": "Kesehatan Anda Prioritas Kami",
+  "trustedByThousands": "Dipercaya oleh ribuan pasien untuk layanan kesehatan terbaik di Indonesia",
+
+  "article": "Artikel",
+  "publishedToday": "Diterbitkan hari ini",
+
+  "noArticlesFound": "Tidak ada artikel ditemukan untuk \"{query}\".",
+  "@noArticlesFound": {
+    "placeholders": {
+      "query": { "type": "String" }
+    }
+  },
+
+  "noArticlesAvailable": "Tidak ada artikel tersedia saat ini",
+  "all_articles": "Semua Artikel",
+
+  "mcu_questionnaire": "Kuesioner MCU",
+  "my_favorite_doctors": "Dokter Favorit Saya",
+  "no_favorite_doctors_yet": "Belum ada dokter favorit",
+  "browse_and_add_doctors_to_your_favorites": "Cari dan tambahkan dokter ke favorit Anda",
+  "doctor_added_to_favorites": "Dokter ditambahkan ke favorit",
+  "doctor_removed_from_favorites": "Dokter dihapus dari favorit",
+  "failed_to_update_favorite_status": "Gagal memperbarui status favorit",
+
+  "notifications": "Notifikasi",
+  "error": "❌ Kesalahan: {provider_error}",
+  "@error": {
+    "placeholders": {
+      "provider_error": { "type": "String" }
+    }
+  },
+
+  "no_notifications_yet": "Belum ada notifikasi",
+
+  "sign_in_successful_welcome": "Berhasil masuk. Selamat datang!",
+  "sign_in_failed_error": "Gagal masuk: {error}",
+  "@sign_in_failed_error": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+
+  "name_is_required": "Nama wajib diisi",
+  "phone_number_is_required": "Nomor telepon wajib diisi",
+  "invalid_email_format": "Format email tidak valid",
+
+  "registration_successful": "Registrasi berhasil",
+  "registration_failed_please_try_again": "Registrasi gagal. Silakan coba lagi.",
+
+  "an_error_occurred_e": "Terjadi kesalahan: {e}",
+  "@an_error_occurred_e": {
+    "placeholders": {
+      "e": { "type": "String" }
+    }
+  },
+
+  "search_country_or_code": "Cari negara atau kode...",
+  "phone_number": "Nomor Telepon",
+  "gender": "Jenis Kelamin",
+  "nationality": "Kewarganegaraan",
+
+  "create_your_account": "Buat Akun",
+  "please_fill_in_the_details_below_to_create_your_account": "Silakan isi detail di bawah untuk membuat akun Anda.",
+
+  "full_name": "Nama Lengkap",
+  "email_address": "Alamat Email",
+  "nik_number": "Nomor NIK",
+  "passport_number": "Nomor Paspor",
+  "sign_up": "Daftar",
+
+  "by_signing_up_you_agree_to_our_terms_of_service_and_privacy_policy": "Dengan mendaftar, Anda menyetujui Syarat Layanan dan Kebijakan Privasi kami.",
+  "already_have_an_account": "Sudah punya akun? ",
+  "sign_in": "Masuk",
+  "retry": "Coba Lagi",
+
+  "education_details_are_not_available_right_now": "Detail pendidikan belum tersedia.",
+  "certifications": "Sertifikasi",
+  "certification_details_are_not_available_right_now": "Detail sertifikasi belum tersedia.",
+
+  "general_schedule": "Jadwal Umum",
+  "schedule_details_are_not_available_right_now": "Detail jadwal belum tersedia.",
+
+  "professional_info": "Info Profesional",
+  "specialist": "Spesialis",
+  "department": "Departemen",
+  "doctor_id": "ID Dokter",
+  "internal_id": "ID Internal",
+  "department_id": "ID Departemen",
+
+  "select_doctor": "Pilih Dokter",
+  "hello_i_would_like_to_inquire_about_the_services": "Halo, saya ingin bertanya tentang layanan.",
+  "contact_via_whatsapp": "Hubungi via WhatsApp",
+
+  "identity_not_found_nik_passport": "Identitas tidak ditemukan (NIK / Paspor)",
+  "no_doctors_available": "Tidak ada dokter tersedia",
+  "sign_in_cancelled_or_failed": "Login dibatalkan atau gagal",
+  "account_not_found_please_sign_up_first": "Akun tidak ditemukan. Silakan daftar terlebih dahulu.",
+
+  "welcome": "Selamat datang {name}!",
+  "@welcome": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+
+  "sign_in_failed": "Gagal masuk: {error}",
+  "@sign_in_failed": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+
+  "sign_in_failed_1": "Gagal masuk",
+  "otp_sent_to_phonenumber": "OTP dikirim ke {phoneNumber}",
+  "@otp_sent_to_phonenumber": {
+    "placeholders": {
+      "phoneNumber": { "type": "String" }
+    }
+  },
+
+  "failed_to_send_otp_phone_not_registered": "Gagal mengirim OTP. Nomor tidak terdaftar",
+  "success": "Berhasil",
+  "otp_verified_successfully": "OTP berhasil diverifikasi!",
+  "failed": "Gagal",
+  "invalid_otp_please_try_again": "OTP tidak valid. Silakan coba lagi.",
+  "verification_failed": "Verifikasi gagal",
+  "enter_verification_code": "Masukkan Kode Verifikasi",
+  "we_sent_a_verification_code_to": "Kami mengirimkan kode verifikasi ke",
+  "didn_t_receive_the_code": "Tidak menerima kode? ",
+  "resend": "Kirim Ulang",
+
+  "select_country": "Pilih Negara",
+  "welcome_back": "Selamat Datang Kembali",
+  "please_enter_your_phone_number_to_continue": "Masukkan nomor telepon untuk melanjutkan",
+  "enter_phone_number": "Masukkan nomor telepon",
+
+  "continue_label": "Lanjutkan",
+  "continue_as_guest": "Lanjutkan sebagai Tamu",
+  "or": "ATAU",
+  "signing_in": "Sedang masuk...",
+  "continue_with_google": "Masuk dengan Google",
+  "need_help_signing_in": "Butuh bantuan masuk?",
+  "don_t_have_an_account": "Belum punya akun? ",
+
+  "choose_your_wellness_package": "Pilih Paket Wellness Anda",
+  "loading_packages": "Memuat paket...",
+  "no_packages_found": "Tidak ada paket ditemukan",
+  "choose_your_wellness_package_1": "Pilih paket wellness Anda",
+
+  "select_date": "Pilih Tanggal",
+  "select_time": "Pilih Waktu",
+
+  "halo_saya_ingin_bertanya_tentang_jadwal_wellness": "Halo, saya ingin bertanya tentang jadwal Wellness.",
+  "no_available_time_slots": "Tidak ada waktu tersedia",
+
+  "review_confirm": "Tinjau & Konfirmasi",
+  "please_review_your_appointment_details": "Harap tinjau detail janji Anda",
+  "please_sign_in_first": "Silakan masuk terlebih dahulu",
+
+  "something_went_wrong_e": "Terjadi kesalahan: {e}",
+  "@something_went_wrong_e": {
+    "placeholders": {
+      "e": { "type": "String" }
+    }
+  },
+
+  "booking_confirmed": "Booking Berhasil!",
+  "booking_failed": "Booking Gagal",
+  "booking_successfully_confirmed": "Booking berhasil dikonfirmasi",
+  "failed_to_confirm_booking": "Gagal mengonfirmasi booking",
+
+  "choose_your_preferred_doctor": "Pilih dokter pilihan Anda",
+  "select": "Pilih",
+
+  "no_packages_available": "Tidak ada paket tersedia",
+  "select_date_time": "Pilih Tanggal & Waktu",
+  "choose_your_preferred_appointment_slot": "Pilih slot janji yang Anda inginkan",
+
+  "available_dates": "Tanggal Tersedia",
+  "available_times": "Waktu Tersedia",
+
+  "halo_saya_ingin_bertanya_tentang_jadwal_mcu": "Halo, saya ingin bertanya tentang jadwal MCU.",
+
+  "back": "Kembali",
+  "confirm_booking": "Konfirmasi Booking",
+  "next": "Lanjut",
+
+  "booking_successfully_but_code_is_not_available": "Booking berhasil tetapi kode tidak tersedia",
+  "failed_to_book": "Gagal melakukan booking",
+  "book_appointment": "Buat Janji",
+
+  "confirm": "Konfirmasi",
+  "congratulations": "Selamat!",
+  "your_appointment_is_booked_for": "Janji Anda dijadwalkan pada:",
+  "thank_you_for_using_our_service": "Terima kasih telah menggunakan layanan kami!",
+
+  "permission_denied_to_access_storage": "Izin penyimpanan ditolak",
+  "file_saved_to_download_pdf": "File disimpan ke Download/{fileName}.pdf",
+  "@file_saved_to_download_pdf": {
+    "placeholders": {
+      "fileName": { "type": "String" }
+    }
+  },
+
+  "failed_to_download_file": "Gagal mengunduh file",
+  "no_pdf_available_for_this_result": "Tidak ada PDF untuk hasil ini",
+
+  "error_1": "Kesalahan: {provider_errorMenu}",
+  "@error_1": {
+    "placeholders": {
+      "provider_errorMenu": { "type": "String" }
+    }
+  },
+
+  "examination_results": "Hasil Pemeriksaan",
+  "gallery": "Galeri",
+  "camera": "Kamera",
+  "failed_to_pick_image": "Gagal memilih gambar",
+
+  "my_card": "Kartu Saya",
+  "card_information": "Informasi Kartu",
+  "got_it": "Mengerti",
+
+  "personal_information": "Informasi Pribadi",
+  "hide_info": "Sembunyikan Info",
+  "show_info": "Tampilkan Info",
+
+  "medical_record_no": "No. Rekam Medis",
+  "email": "Email",
+  "date_of_birth": "Tanggal Lahir",
+
+  "doctor_details": "Detail Dokter",
+  "doctor_detail_is_empty": "Detail dokter kosong",
+  "doctor_attributes_are_unavailable": "Atribut dokter tidak tersedia",
+  "name_not_available": "Nama tidak tersedia",
+  "specialization_not_available": "Spesialisasi tidak tersedia",
+
+  "about": "Tentang",
+  "no_description_available_for_this_doctor": "Tidak ada deskripsi untuk dokter ini.",
+  "show_more": "Tampilkan lebih banyak",
+  "show_less": "Tampilkan lebih sedikit",
+
+  "education": "Pendidikan",
+  "no_education_data_available": "Data pendidikan tidak tersedia",
+  "no_certification_data_available": "Data sertifikasi tidak tersedia",
+  "unknown": "Tidak diketahui",
+
+  "terms_conditions": "Syarat & Ketentuan",
+  "error_2": "Kesalahan: {provider_errorMessage}",
+  "@error_2": {
+    "placeholders": {
+      "provider_errorMessage": { "type": "String" }
+    }
+  },
+
+  "no_facilities_found": "Tidak ada fasilitas ditemukan",
+  "sorry_we_cannot_open_whatsapp_on_this_device": "Maaf, WhatsApp tidak dapat dibuka di perangkat ini.",
+
+  "active": "AKTIF",
+  "inactive": "TIDAK AKTIF",
+  "validity_period": "Masa Berlaku",
+  "use_promo_now": "Gunakan Promo Sekarang",
+  "promo_unavailable": "Promo Tidak Tersedia",
+
+  "promo_successfully_used": "🎉 Promo {widget_promo_title} berhasil digunakan!",
+  "@promo_successfully_used": {
+    "placeholders": {
+      "widget_promo_title": { "type": "String" }
+    }
+  },
+
+  "sharing_promo": "📤 Membagikan promo...",
+  "promo_saved_to_favorites": "💾 Promo disimpan ke favorit!",
+
+  "digitalCardInfo": "Kartu digital ini merepresentasikan identitas pasien Anda. Pindai barcode untuk registrasi atau identifikasi di rumah sakit.",
+
+  "showingBasicProfile": "Menampilkan profil dasar. Anda dapat melanjutkan dengan dokter ini atau memuat ulang untuk detail lengkap.",
+
+  "orderConfirmationBody": "Anda memilih {count} item.\nTotal: {total}\n\nLanjutkan pesanan?",
+  "@orderConfirmationBody": {
+    "placeholders": {
+      "count": { "type": "int" },
+      "total": { "type": "String" }
+    }
+  },
+
+  "laboratory_order": "Pesanan Laboratorium",
+  "search_laboratory": "Cari laboratorium...",
+  "error_3": "Kesalahan: ",
+  "no_laboratory_data": "Tidak ada data laboratorium",
+
+  "selected": "Dipilih: ",
+  "total": "Total: ",
+  "order_confirmation": "Konfirmasi Pesanan",
+  "cancel": "Batal",
+  "order_submitted_proceed_to_booking": "Pesanan dikirim! Lanjutkan ke booking.",
+  "place_order": "Pesan",
+
+  "order_radiology": "Pesanan Radiologi",
+  "search_radiology": "Cari radiologi...",
+  "no_radiology_items": "Tidak ada item radiologi",
+  "no_matching_results": "Tidak ada hasil yang cocok",
+
+  "selected_1": "Dipilih: {count}",
+  "@selected_1": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+
+  "total_1": "Total: {total}",
+  "@total_1": {
+    "placeholders": {
+      "total": { "type": "String" }
+    }
+  }
+}
