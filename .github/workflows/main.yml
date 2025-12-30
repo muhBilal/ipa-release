@@ -14,20 +14,25 @@ jobs:
         with:
           channel: 'stable'
           architecture: x64
-          
-      - run: flutter pub get
+          cache: true # Mengaktifkan cache agar build berikutnya lebih cepat
 
-      # Langkah tambahan penting agar tidak error saat build
+      # PENTING: Membersihkan cache lama dan lock file agar tidak konflik
+      - name: Clean & Get Packages
+        run: |
+          rm -f pubspec.lock
+          flutter clean
+          flutter pub get
+
+      # Install Pods (Wajib untuk iOS)
       - name: Install CocoaPods
         run: |
           cd ios
           pod install --repo-update
         shell: bash
 
-      # PERHATIAN: --no-codesign menghasilkan IPA yang tidak bisa diinstall di HP biasa
+      # Build IPA (Ingat: --no-codesign hasilnya tidak bisa diinstall di HP tanpa resign)
       - run: flutter build ios --release --no-codesign
 
-      # Membuat struktur Payload manual untuk IPA
       - run: mkdir Payload
         working-directory: build/ios/iphoneos
 
@@ -45,4 +50,4 @@ jobs:
           file: build/ios/iphoneos/FlutterIpaExport.ipa
           tag: v1.0
           overwrite: true
-          body: "This is first release"
+          body: "Build terbaru via GitHub Actions"
