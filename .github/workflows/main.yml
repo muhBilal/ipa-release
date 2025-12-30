@@ -10,10 +10,15 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - uses: subosito/flutter-action@v2
-        with:
-          channel: 'stable'
-          architecture: x64
+      # ... steps lainnya ...
+
+      - name: 🧹 Clean and Get Packages
+        # Tambahkan working-directory jika project ada di subfolder
+        # working-directory: ./nama_folder_project_anda 
+        run: |
+          rm -f pubspec.lock
+          flutter clean
+          flutter pub get
           
       # --- DEBUGGING STEP (PENTING) ---
       # Ini akan menampilkan isi file pubspec.yaml di log error nanti.
