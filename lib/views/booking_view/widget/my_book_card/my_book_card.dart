@@ -1,10 +1,10 @@
-import 'package:Ngoerahsun/l10n/app_localizations.dart';
-import 'package:Ngoerahsun/model/myBooking_model.dart';
-import 'package:Ngoerahsun/provider/admission/admission_provider.dart';
-import 'package:Ngoerahsun/views/booking_view/detail/book_detail_view.dart';
+import 'package:ngoerahsun/l10n/app_localizations.dart';
+import 'package:ngoerahsun/model/myBooking_model.dart';
+import 'package:ngoerahsun/provider/admission/admission_provider.dart';
+import 'package:ngoerahsun/views/booking_view/detail/book_detail_view.dart';
 import 'package:flutter/material.dart';
-import 'package:Ngoerahsun/utils/app_colors/app_colors.dart';
-import 'package:Ngoerahsun/widgets/app_AppointmentCard/app_appointment_card_view.dart';
+import 'package:ngoerahsun/utils/app_colors/app_colors.dart';
+import 'package:ngoerahsun/widgets/app_AppointmentCard/app_appointment_card_view.dart';
 import 'package:provider/provider.dart';
 import 'package:url_launcher/url_launcher.dart';
 

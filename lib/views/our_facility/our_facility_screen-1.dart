@@ -1,4 +1,4 @@
-import 'package:Ngoerahsun/utils/app_colors/app_colors.dart';
+import 'package:ngoerahsun/utils/app_colors/app_colors.dart';
 import 'package:flutter/material.dart';
 
 class OurFacilityView1 extends StatelessWidget {
@@ -42,7 +42,7 @@ class OurFacilityView1 extends StatelessWidget {
                       ),
                       SizedBox(height: 16),
                       Text(
-                        'Ngoerahsun Hospital',
+                        'ngoerahsun Hospital',
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 24,

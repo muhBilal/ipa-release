@@ -1,8 +1,8 @@
 import 'dart:developer';
-import 'package:Ngoerahsun/services/article/article_service.dart';
+import 'package:ngoerahsun/services/article/article_service.dart';
 import 'package:flutter/foundation.dart';
 
-import 'package:Ngoerahsun/model/article_model.dart';
+import 'package:ngoerahsun/model/article_model.dart';
 
 class ArticleProvider with ChangeNotifier {
   final ArticleService _articleService = ArticleService();

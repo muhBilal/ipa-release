@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'dart:developer';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:Ngoerahsun/model/user_model.dart';
+import 'package:ngoerahsun/model/user_model.dart';
 
 class UserPreferences {
   static const _userKey = 'user_data';

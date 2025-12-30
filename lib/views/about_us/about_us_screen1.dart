@@ -1,6 +1,6 @@
-import 'package:Ngoerahsun/utils/app_colors/app_colors.dart';
+import 'package:ngoerahsun/utils/app_colors/app_colors.dart';
 import 'package:flutter/material.dart';
-import 'package:Ngoerahsun/l10n/app_localizations.dart';
+import 'package:ngoerahsun/l10n/app_localizations.dart';
 
 class AboutUsScreenView extends StatelessWidget {
   const AboutUsScreenView({super.key});
@@ -52,7 +52,7 @@ class AboutUsScreenView extends StatelessWidget {
                       ),
                       const SizedBox(height: 30),
                       const Text(
-                        'Ngoerahsun Hospital',
+                        'ngoerahsun Hospital',
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 32,

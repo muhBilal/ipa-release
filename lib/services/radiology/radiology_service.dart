@@ -1,9 +1,9 @@
 import 'dart:convert';
 import 'dart:developer';
-import 'package:Ngoerahsun/services/preferences/language_preferences.dart';
+import 'package:ngoerahsun/services/preferences/language_preferences.dart';
 import 'package:http/http.dart' as http;
-import 'package:Ngoerahsun/utils/repository.dart';
-import 'package:Ngoerahsun/model/radiology_menu.dart';
+import 'package:ngoerahsun/utils/repository.dart';
+import 'package:ngoerahsun/model/radiology_menu.dart';
 
 class RadiologyService {
   final ResourceRepository _repo = ResourceRepository();

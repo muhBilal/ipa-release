@@ -466,13 +466,13 @@ class AppLocalizationsEn extends AppLocalizations {
   String get aboutUs => 'About Us';
 
   @override
-  String get ngoerahsunHospital => 'Ngoerahsun Hospital';
+  String get ngoerahsunHospital => 'ngoerahsun Hospital';
 
   @override
   String get excellenceInHealthcare => 'Excellence in Healthcare';
 
   @override
-  String get aboutDescription => 'Ngoerahsun Hospital is a leading healthcare institution in Indonesia, providing international standard medical services backed by advanced technology and experienced medical professionals.';
+  String get aboutDescription => 'ngoerahsun Hospital is a leading healthcare institution in Indonesia, providing international standard medical services backed by advanced technology and experienced medical professionals.';
 
   @override
   String get aboutLabel => 'About';

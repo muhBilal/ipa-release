@@ -1,14 +1,14 @@
 import 'dart:convert';
 import 'dart:developer';
 
-import 'package:Ngoerahsun/model/mcu_model.dart';
-import 'package:Ngoerahsun/utils/repository.dart';
+import 'package:ngoerahsun/model/mcu_model.dart';
+import 'package:ngoerahsun/utils/repository.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
-import 'package:Ngoerahsun/utils/repository.dart';
-import 'package:Ngoerahsun/model/wellnessModel.dart';
+import 'package:ngoerahsun/utils/repository.dart';
+import 'package:ngoerahsun/model/wellnessModel.dart';
 
 class PackageService {
   final ResourceRepository repo = ResourceRepository();

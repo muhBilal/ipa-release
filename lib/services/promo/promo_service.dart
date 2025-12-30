@@ -1,8 +1,8 @@
 import 'dart:developer';
 import 'dart:convert';
-import 'package:Ngoerahsun/utils/repository.dart';
+import 'package:ngoerahsun/utils/repository.dart';
 import 'package:http/http.dart' as http;
-import 'package:Ngoerahsun/model/promo_model.dart';
+import 'package:ngoerahsun/model/promo_model.dart';
 
 class PromoService {
   ResourceRepository repo = ResourceRepository();

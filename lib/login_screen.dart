@@ -1,6 +1,6 @@
 import 'dart:developer';
 import 'package:flutter/material.dart';
-import 'package:Ngoerahsun/services/auth/auth_service.dart';
+import 'package:ngoerahsun/services/auth/auth_service.dart';
 
 class LoginScreen extends StatefulWidget {
   @override

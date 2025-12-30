@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:Ngoerahsun/services/preferences/language_preferences.dart';
+import 'package:ngoerahsun/services/preferences/language_preferences.dart';
 
 class LocaleProvider extends ChangeNotifier {
   Locale? _locale;

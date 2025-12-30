@@ -1,14 +1,14 @@
 import 'dart:async';
 import 'dart:developer';
 import 'dart:io';
-import 'package:Ngoerahsun/model/user_model.dart';
-import 'package:Ngoerahsun/provider/auth/authen_provider.dart';
-import 'package:Ngoerahsun/services/preferences/user_preferences.dart';
-import 'package:Ngoerahsun/utils/repository.dart';
+import 'package:ngoerahsun/model/user_model.dart';
+import 'package:ngoerahsun/provider/auth/authen_provider.dart';
+import 'package:ngoerahsun/services/preferences/user_preferences.dart';
+import 'package:ngoerahsun/utils/repository.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:flutter/foundation.dart';
-import 'package:Ngoerahsun/services/preferences/firebase_user_preferences.dart';
+import 'package:ngoerahsun/services/preferences/firebase_user_preferences.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 

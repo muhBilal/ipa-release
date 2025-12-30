@@ -1,7 +1,7 @@
 import 'dart:developer';
-import 'package:Ngoerahsun/services/promo/promo_service.dart';
+import 'package:ngoerahsun/services/promo/promo_service.dart';
 import 'package:flutter/material.dart';
-import 'package:Ngoerahsun/model/promo_model.dart';
+import 'package:ngoerahsun/model/promo_model.dart';
 
 class PromoProvider extends ChangeNotifier {
   final PromoService _promoService = PromoService();

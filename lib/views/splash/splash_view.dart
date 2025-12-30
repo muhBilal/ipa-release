@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:Ngoerahsun/core/navigation/navigator.dart';
-import 'package:Ngoerahsun/utils/app_colors/app_colors.dart';
-import 'package:Ngoerahsun/utils/app_images/app_images.dart';
-import 'package:Ngoerahsun/views/intro/intro_view.dart';
+import 'package:ngoerahsun/core/navigation/navigator.dart';
+import 'package:ngoerahsun/utils/app_colors/app_colors.dart';
+import 'package:ngoerahsun/utils/app_images/app_images.dart';
+import 'package:ngoerahsun/views/intro/intro_view.dart';
 
 class SplashView extends StatefulWidget {
   const SplashView({super.key});
@@ -88,7 +88,7 @@ class _SplashViewState extends State<SplashView> {
                       ),
                       RichText(
                         text: const TextSpan(
-                          text: "Ngoerahsun",
+                          text: "ngoerahsun",
                           style: TextStyle(
                             fontSize: 18,
                             color: AppColors.silverColor,

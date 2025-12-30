@@ -1,26 +1,26 @@
 import 'dart:ui';
 
-import 'package:Ngoerahsun/l10n/app_localizations.dart';
-import 'package:Ngoerahsun/model/user_model.dart';
-import 'package:Ngoerahsun/services/preferences/user_preferences.dart';
-import 'package:Ngoerahsun/views/about_us/about_us_screen.dart';
-import 'package:Ngoerahsun/views/articles/articles_list.dart';
-import 'package:Ngoerahsun/views/dashboard/components/dashboard_card.dart';
-import 'package:Ngoerahsun/views/doctor_booking/doctor_booking_screen.dart';
-import 'package:Ngoerahsun/views/examination_result/examination_result_screen.dart';
-import 'package:Ngoerahsun/views/login/login_view.dart';
-import 'package:Ngoerahsun/views/our_facility/our_facility_screen.dart';
-import 'package:Ngoerahsun/views/wellness/wellness_submenu_screen.dart';
-import 'package:Ngoerahsun/widgets/gradient_background/gradient_background.dart';
+import 'package:ngoerahsun/l10n/app_localizations.dart';
+import 'package:ngoerahsun/model/user_model.dart';
+import 'package:ngoerahsun/services/preferences/user_preferences.dart';
+import 'package:ngoerahsun/views/about_us/about_us_screen.dart';
+import 'package:ngoerahsun/views/articles/articles_list.dart';
+import 'package:ngoerahsun/views/dashboard/components/dashboard_card.dart';
+import 'package:ngoerahsun/views/doctor_booking/doctor_booking_screen.dart';
+import 'package:ngoerahsun/views/examination_result/examination_result_screen.dart';
+import 'package:ngoerahsun/views/login/login_view.dart';
+import 'package:ngoerahsun/views/our_facility/our_facility_screen.dart';
+import 'package:ngoerahsun/views/wellness/wellness_submenu_screen.dart';
+import 'package:ngoerahsun/widgets/gradient_background/gradient_background.dart';
 import 'package:flutter/material.dart';
-import 'package:Ngoerahsun/core/navigation/navigator.dart';
-import 'package:Ngoerahsun/utils/app_colors/app_colors.dart';
-import 'package:Ngoerahsun/utils/app_images/app_images.dart';
-import 'package:Ngoerahsun/views/notifications/my_notifications_view.dart';
-import 'package:Ngoerahsun/widgets/app_banner/app_banner_view.dart';
+import 'package:ngoerahsun/core/navigation/navigator.dart';
+import 'package:ngoerahsun/utils/app_colors/app_colors.dart';
+import 'package:ngoerahsun/utils/app_images/app_images.dart';
+import 'package:ngoerahsun/views/notifications/my_notifications_view.dart';
+import 'package:ngoerahsun/widgets/app_banner/app_banner_view.dart';
 import 'package:provider/provider.dart';
-import 'package:Ngoerahsun/provider/article/article_provider.dart';
-import 'package:Ngoerahsun/views/articles/article_detail_view.dart';
+import 'package:ngoerahsun/provider/article/article_provider.dart';
+import 'package:ngoerahsun/views/articles/article_detail_view.dart';
 
 class DashboardView extends StatefulWidget {
   const DashboardView({super.key});

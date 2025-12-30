@@ -1,10 +1,10 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:Ngoerahsun/core/navigation/navigator.dart';
-import 'package:Ngoerahsun/utils/app_colors/app_colors.dart';
-import 'package:Ngoerahsun/utils/app_images/app_images.dart';
-import 'package:Ngoerahsun/views/create_password/create_new_password_view.dart';
-import 'package:Ngoerahsun/widgets/app_button/app_button.dart';
+import 'package:ngoerahsun/core/navigation/navigator.dart';
+import 'package:ngoerahsun/utils/app_colors/app_colors.dart';
+import 'package:ngoerahsun/utils/app_images/app_images.dart';
+import 'package:ngoerahsun/views/create_password/create_new_password_view.dart';
+import 'package:ngoerahsun/widgets/app_button/app_button.dart';
 
 class VerifyCodeView extends StatefulWidget {
   const VerifyCodeView({super.key});

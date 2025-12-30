@@ -1,20 +1,20 @@
 import 'dart:developer';
 
-import 'package:Ngoerahsun/l10n/app_localizations.dart';
+import 'package:ngoerahsun/l10n/app_localizations.dart';
 import 'package:flutter/material.dart';
-import 'package:Ngoerahsun/utils/app_colors/app_colors.dart';
-import 'package:Ngoerahsun/utils/app_images/app_images.dart';
-import 'package:Ngoerahsun/widgets/app_button/app_button.dart';
-import 'package:Ngoerahsun/widgets/app_text_from_field/app_text_from_field_view.dart';
+import 'package:ngoerahsun/utils/app_colors/app_colors.dart';
+import 'package:ngoerahsun/utils/app_images/app_images.dart';
+import 'package:ngoerahsun/widgets/app_button/app_button.dart';
+import 'package:ngoerahsun/widgets/app_text_from_field/app_text_from_field_view.dart';
 import 'package:intl/intl.dart';
 import 'package:loading_indicator/loading_indicator.dart';
-import 'package:Ngoerahsun/services/preferences/user_preferences.dart';
-import 'package:Ngoerahsun/model/user_model.dart';
+import 'package:ngoerahsun/services/preferences/user_preferences.dart';
+import 'package:ngoerahsun/model/user_model.dart';
 import 'package:provider/provider.dart';
-import 'package:Ngoerahsun/provider/auth/authen_provider.dart';
+import 'package:ngoerahsun/provider/auth/authen_provider.dart';
 import 'dart:io';
 import 'package:image_picker/image_picker.dart';
-import 'package:Ngoerahsun/model/country_model.dart';
+import 'package:ngoerahsun/model/country_model.dart';
 
 class ProfileView extends StatefulWidget {
   const ProfileView({Key? key}) : super(key: key);

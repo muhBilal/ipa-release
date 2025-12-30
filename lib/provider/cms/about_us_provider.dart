@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:Ngoerahsun/model/cms/about_us_model.dart';
-import 'package:Ngoerahsun/services/cms/about_us_service.dart';
+import 'package:ngoerahsun/model/cms/about_us_model.dart';
+import 'package:ngoerahsun/services/cms/about_us_service.dart';
 
 class AboutUsProvider extends ChangeNotifier {
   final AboutUsService _service = AboutUsService();

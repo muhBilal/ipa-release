@@ -1,5 +1,5 @@
-import 'package:Ngoerahsun/utils/app_colors/app_colors.dart';
-import 'package:Ngoerahsun/views/wellness/components/glass_morphism_card.dart';
+import 'package:ngoerahsun/utils/app_colors/app_colors.dart';
+import 'package:ngoerahsun/views/wellness/components/glass_morphism_card.dart';
 import 'package:flutter/material.dart';
 
 class WellnessPackageCard extends StatelessWidget {

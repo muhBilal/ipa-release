@@ -1,11 +1,11 @@
-import 'package:Ngoerahsun/l10n/app_localizations.dart';
+import 'package:ngoerahsun/l10n/app_localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
-import 'package:Ngoerahsun/widgets/gradient_background/gradient_background.dart';
-import 'package:Ngoerahsun/provider/radiology/radiology_provider.dart';
-import 'package:Ngoerahsun/model/radiology_menu.dart';
-import 'package:Ngoerahsun/views/doctor_booking/doctor_booking_screen.dart';
+import 'package:ngoerahsun/widgets/gradient_background/gradient_background.dart';
+import 'package:ngoerahsun/provider/radiology/radiology_provider.dart';
+import 'package:ngoerahsun/model/radiology_menu.dart';
+import 'package:ngoerahsun/views/doctor_booking/doctor_booking_screen.dart';
 
 class RadiologyOrderPageView extends StatefulWidget {
   const RadiologyOrderPageView({super.key});

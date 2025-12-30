@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:Ngoerahsun/utils/app_colors/app_colors.dart';
-import 'package:Ngoerahsun/views/hospitals_view/my_hospital_view.dart';
-import 'package:Ngoerahsun/widgets/app_text_from_field/app_text_from_field_view.dart';
+import 'package:ngoerahsun/utils/app_colors/app_colors.dart';
+import 'package:ngoerahsun/views/hospitals_view/my_hospital_view.dart';
+import 'package:ngoerahsun/widgets/app_text_from_field/app_text_from_field_view.dart';
 
 class AllHospitalListView extends StatefulWidget {
   const AllHospitalListView({super.key});

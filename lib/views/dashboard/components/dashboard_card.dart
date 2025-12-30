@@ -1,11 +1,11 @@
 import 'dart:ui';
-import 'package:Ngoerahsun/l10n/app_localizations.dart';
-import 'package:Ngoerahsun/utils/app_colors/app_colors.dart';
-import 'package:Ngoerahsun/views/examination_order/labolatory/order_labolatory_view.dart';
-import 'package:Ngoerahsun/views/examination_order/radiology/order_radiology_view.dart';
-import 'package:Ngoerahsun/views/login/login_view.dart';
+import 'package:ngoerahsun/l10n/app_localizations.dart';
+import 'package:ngoerahsun/utils/app_colors/app_colors.dart';
+import 'package:ngoerahsun/views/examination_order/labolatory/order_labolatory_view.dart';
+import 'package:ngoerahsun/views/examination_order/radiology/order_radiology_view.dart';
+import 'package:ngoerahsun/views/login/login_view.dart';
 import 'package:flutter/material.dart';
-import 'package:Ngoerahsun/model/user_model.dart';
+import 'package:ngoerahsun/model/user_model.dart';
 
 class GlassMorphDashboardCard extends StatelessWidget {
   final String title;

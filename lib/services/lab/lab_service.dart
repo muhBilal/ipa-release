@@ -1,9 +1,9 @@
 import 'dart:convert';
 import 'dart:developer';
-import 'package:Ngoerahsun/services/preferences/language_preferences.dart';
+import 'package:ngoerahsun/services/preferences/language_preferences.dart';
 import 'package:http/http.dart' as http;
-import 'package:Ngoerahsun/utils/repository.dart';
-import 'package:Ngoerahsun/model/lab_menu.dart';
+import 'package:ngoerahsun/utils/repository.dart';
+import 'package:ngoerahsun/model/lab_menu.dart';
 
 class LabService {
   final ResourceRepository _repo = ResourceRepository();

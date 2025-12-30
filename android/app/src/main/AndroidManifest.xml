@@ -19,7 +19,7 @@
     <!-- 🌐 App definition -->
     <application
         android:name="${applicationName}"
-        android:label="Ngoerahsunwac"
+        android:label="ngoerahsunwac"
         android:icon="@mipmap/ic_launcher"
         android:requestLegacyExternalStorage="true"
         android:usesCleartextTraffic="true">

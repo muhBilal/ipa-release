@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:Ngoerahsun/model/article_model.dart';
-import 'package:Ngoerahsun/utils/app_colors/app_colors.dart';
-import 'package:Ngoerahsun/utils/app_images/app_images.dart';
-import 'package:Ngoerahsun/l10n/app_localizations.dart';
+import 'package:ngoerahsun/model/article_model.dart';
+import 'package:ngoerahsun/utils/app_colors/app_colors.dart';
+import 'package:ngoerahsun/utils/app_images/app_images.dart';
+import 'package:ngoerahsun/l10n/app_localizations.dart';
 
 class ArticleDetailView extends StatefulWidget {
   final ArticleModel article;

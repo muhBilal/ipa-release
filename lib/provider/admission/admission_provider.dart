@@ -1,13 +1,13 @@
 import 'dart:developer';
-import 'package:Ngoerahsun/model/booking/booking_detail_model.dart';
-import 'package:Ngoerahsun/services/preferences/user_preferences.dart';
+import 'package:ngoerahsun/model/booking/booking_detail_model.dart';
+import 'package:ngoerahsun/services/preferences/user_preferences.dart';
 import 'package:flutter/foundation.dart';
 
-import 'package:Ngoerahsun/model/doctor_model.dart';
-import 'package:Ngoerahsun/model/poli_model.dart';
-import 'package:Ngoerahsun/model/schedule_model.dart';
-import 'package:Ngoerahsun/model/myBooking_model.dart';
-import 'package:Ngoerahsun/services/admission/admission_service.dart';
+import 'package:ngoerahsun/model/doctor_model.dart';
+import 'package:ngoerahsun/model/poli_model.dart';
+import 'package:ngoerahsun/model/schedule_model.dart';
+import 'package:ngoerahsun/model/myBooking_model.dart';
+import 'package:ngoerahsun/services/admission/admission_service.dart';
 
 class AdmissionProvider with ChangeNotifier {
   final AdmissionService _admissionService = AdmissionService();

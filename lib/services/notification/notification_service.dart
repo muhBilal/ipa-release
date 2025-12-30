@@ -1,8 +1,8 @@
 import 'dart:convert';
 import 'dart:developer';
-import 'package:Ngoerahsun/model/notification/notification_group_model.dart';
-import 'package:Ngoerahsun/services/preferences/user_preferences.dart';
-import 'package:Ngoerahsun/utils/repository.dart';
+import 'package:ngoerahsun/model/notification/notification_group_model.dart';
+import 'package:ngoerahsun/services/preferences/user_preferences.dart';
+import 'package:ngoerahsun/utils/repository.dart';
 import 'package:http/http.dart' as http;
 
 class NotificationService {

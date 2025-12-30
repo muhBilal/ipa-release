@@ -1,5 +1,5 @@
-import 'package:Ngoerahsun/l10n/app_localizations.dart';
-import 'package:Ngoerahsun/utils/repository.dart';
+import 'package:ngoerahsun/l10n/app_localizations.dart';
+import 'package:ngoerahsun/utils/repository.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:webview_flutter/webview_flutter.dart';

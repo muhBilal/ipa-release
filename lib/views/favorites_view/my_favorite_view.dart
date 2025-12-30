@@ -1,17 +1,17 @@
 import 'dart:developer';
 
-import 'package:Ngoerahsun/l10n/app_localizations.dart';
-import 'package:Ngoerahsun/views/doctor_booking/doctor_booking_screen.dart';
+import 'package:ngoerahsun/l10n/app_localizations.dart';
+import 'package:ngoerahsun/views/doctor_booking/doctor_booking_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 
-import 'package:Ngoerahsun/core/navigation/navigator.dart';
-import 'package:Ngoerahsun/utils/app_colors/app_colors.dart';
-import 'package:Ngoerahsun/utils/app_images/app_images.dart';
-import 'package:Ngoerahsun/provider/admission/admission_provider.dart';
-import 'package:Ngoerahsun/model/doctor_model.dart';
+import 'package:ngoerahsun/core/navigation/navigator.dart';
+import 'package:ngoerahsun/utils/app_colors/app_colors.dart';
+import 'package:ngoerahsun/utils/app_images/app_images.dart';
+import 'package:ngoerahsun/provider/admission/admission_provider.dart';
+import 'package:ngoerahsun/model/doctor_model.dart';
 
 class MyFavoriteDoctorListView extends StatefulWidget {
   const MyFavoriteDoctorListView({super.key});

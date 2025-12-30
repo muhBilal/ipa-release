@@ -1,10 +1,10 @@
-import 'package:Ngoerahsun/l10n/app_localizations.dart';
+import 'package:ngoerahsun/l10n/app_localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:calendar_date_picker2/calendar_date_picker2.dart';
-import 'package:Ngoerahsun/utils/app_colors/app_colors.dart';
-import 'package:Ngoerahsun/utils/app_images/app_images.dart';
-import 'package:Ngoerahsun/views/book_appointment/widget/time_picker_view.dart';
-import 'package:Ngoerahsun/widgets/app_button/app_button.dart';
+import 'package:ngoerahsun/utils/app_colors/app_colors.dart';
+import 'package:ngoerahsun/utils/app_images/app_images.dart';
+import 'package:ngoerahsun/views/book_appointment/widget/time_picker_view.dart';
+import 'package:ngoerahsun/widgets/app_button/app_button.dart';
 import 'package:intl/intl.dart';
 
 class MyBookAppointmentWidgetView extends StatefulWidget {

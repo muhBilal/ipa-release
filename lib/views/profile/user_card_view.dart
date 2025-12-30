@@ -1,9 +1,9 @@
 import 'dart:convert';
 import 'dart:developer';
-import 'package:Ngoerahsun/l10n/app_localizations.dart';
-import 'package:Ngoerahsun/model/user_model.dart';
-import 'package:Ngoerahsun/services/preferences/user_preferences.dart';
-import 'package:Ngoerahsun/utils/app_colors/app_colors.dart';
+import 'package:ngoerahsun/l10n/app_localizations.dart';
+import 'package:ngoerahsun/model/user_model.dart';
+import 'package:ngoerahsun/services/preferences/user_preferences.dart';
+import 'package:ngoerahsun/utils/app_colors/app_colors.dart';
 import 'package:flutter/material.dart';
 import 'package:barcode_widget/barcode_widget.dart';
 import 'package:shared_preferences/shared_preferences.dart';

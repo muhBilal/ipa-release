@@ -2,7 +2,7 @@ import 'dart:developer';
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:Ngoerahsun/l10n/app_localizations.dart';
+import 'package:ngoerahsun/l10n/app_localizations.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 import 'package:dio/dio.dart';
 import 'package:permission_handler/permission_handler.dart';

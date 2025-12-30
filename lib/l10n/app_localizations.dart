@@ -950,7 +950,7 @@ abstract class AppLocalizations {
   /// No description provided for @ngoerahsunHospital.
   ///
   /// In en, this message translates to:
-  /// **'Ngoerahsun Hospital'**
+  /// **'ngoerahsun Hospital'**
   String get ngoerahsunHospital;
 
   /// No description provided for @excellenceInHealthcare.
@@ -962,7 +962,7 @@ abstract class AppLocalizations {
   /// No description provided for @aboutDescription.
   ///
   /// In en, this message translates to:
-  /// **'Ngoerahsun Hospital is a leading healthcare institution in Indonesia, providing international standard medical services backed by advanced technology and experienced medical professionals.'**
+  /// **'ngoerahsun Hospital is a leading healthcare institution in Indonesia, providing international standard medical services backed by advanced technology and experienced medical professionals.'**
   String get aboutDescription;
 
   /// No description provided for @aboutLabel.

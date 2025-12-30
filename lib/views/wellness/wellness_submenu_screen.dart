@@ -1,7 +1,7 @@
-import 'package:Ngoerahsun/l10n/app_localizations.dart';
-import 'package:Ngoerahsun/utils/app_colors/app_colors.dart';
-import 'package:Ngoerahsun/views/wellness/mcu_booking_scree.dart';
-import 'package:Ngoerahsun/views/wellness/wellnesss_booking_screen.dart';
+import 'package:ngoerahsun/l10n/app_localizations.dart';
+import 'package:ngoerahsun/utils/app_colors/app_colors.dart';
+import 'package:ngoerahsun/views/wellness/mcu_booking_scree.dart';
+import 'package:ngoerahsun/views/wellness/wellnesss_booking_screen.dart';
 import 'package:flutter/material.dart';
 import 'dart:ui';
 import 'package:flutter/services.dart';

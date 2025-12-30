@@ -1,16 +1,16 @@
 import 'dart:async';
-import 'package:Ngoerahsun/l10n/app_localizations.dart';
-import 'package:Ngoerahsun/model/user_model.dart';
-import 'package:Ngoerahsun/services/preferences/user_preferences.dart';
+import 'package:ngoerahsun/l10n/app_localizations.dart';
+import 'package:ngoerahsun/model/user_model.dart';
+import 'package:ngoerahsun/services/preferences/user_preferences.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'package:Ngoerahsun/widgets/gradient_background/gradient_background.dart';
-import 'package:Ngoerahsun/utils/app_colors/app_colors.dart';
-import 'package:Ngoerahsun/widgets/app_text_from_field/app_text_from_field_view.dart';
-import 'package:Ngoerahsun/views/doctors_view/my_doctor_view.dart';
-import 'package:Ngoerahsun/views/doctor_list__all/horizontal_doctor_category_name_list_view/doctor_category_list_view.dart';
-import 'package:Ngoerahsun/provider/admission/admission_provider.dart';
+import 'package:ngoerahsun/widgets/gradient_background/gradient_background.dart';
+import 'package:ngoerahsun/utils/app_colors/app_colors.dart';
+import 'package:ngoerahsun/widgets/app_text_from_field/app_text_from_field_view.dart';
+import 'package:ngoerahsun/views/doctors_view/my_doctor_view.dart';
+import 'package:ngoerahsun/views/doctor_list__all/horizontal_doctor_category_name_list_view/doctor_category_list_view.dart';
+import 'package:ngoerahsun/provider/admission/admission_provider.dart';
 
 class AllDoctorListView extends StatefulWidget {
   const AllDoctorListView({super.key});

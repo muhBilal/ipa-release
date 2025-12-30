@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:Ngoerahsun/model/cms/our_facility_model.dart';
-import 'package:Ngoerahsun/services/cms/our_facility_service.dart';
+import 'package:ngoerahsun/model/cms/our_facility_model.dart';
+import 'package:ngoerahsun/services/cms/our_facility_service.dart';
 
 class OurFacilityProvider extends ChangeNotifier {
   final OurFacilityService _service = OurFacilityService();

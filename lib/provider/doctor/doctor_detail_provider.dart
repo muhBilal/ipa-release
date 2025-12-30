@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:Ngoerahsun/model/doctor_detail_model.dart';
-import 'package:Ngoerahsun/services/doctor/doctor_detail_service.dart';
+import 'package:ngoerahsun/model/doctor_detail_model.dart';
+import 'package:ngoerahsun/services/doctor/doctor_detail_service.dart';
 
 class DoctorDetailProvider with ChangeNotifier {
   final DoctorDetailService _service = DoctorDetailService();

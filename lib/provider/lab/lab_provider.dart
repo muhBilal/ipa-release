@@ -1,9 +1,9 @@
 import 'dart:developer';
 
-import 'package:Ngoerahsun/services/preferences/language_preferences.dart';
+import 'package:ngoerahsun/services/preferences/language_preferences.dart';
 import 'package:flutter/foundation.dart';
-import 'package:Ngoerahsun/model/lab_menu.dart';
-import 'package:Ngoerahsun/services/lab/lab_service.dart';
+import 'package:ngoerahsun/model/lab_menu.dart';
+import 'package:ngoerahsun/services/lab/lab_service.dart';
 
 class LabProvider with ChangeNotifier {
   final LabService _service = LabService();

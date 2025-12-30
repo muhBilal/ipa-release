@@ -1,13 +1,13 @@
 import 'dart:developer';
 
-import 'package:Ngoerahsun/model/booking/booking_detail_model.dart';
-import 'package:Ngoerahsun/provider/admission/admission_provider.dart';
-import 'package:Ngoerahsun/utils/app_colors/app_colors.dart';
+import 'package:ngoerahsun/model/booking/booking_detail_model.dart';
+import 'package:ngoerahsun/provider/admission/admission_provider.dart';
+import 'package:ngoerahsun/utils/app_colors/app_colors.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:qr_flutter/qr_flutter.dart';
 import 'package:intl/intl.dart';
-import 'package:Ngoerahsun/l10n/app_localizations.dart';
+import 'package:ngoerahsun/l10n/app_localizations.dart';
 
 class BookingDetailScreen extends StatefulWidget {
   final int? bookingCode;
@@ -260,7 +260,7 @@ class _BookingDetailScreenState extends State<BookingDetailScreen>
               ),
               const SizedBox(width: 12),
               const Text(
-                'NGOERAHSUN',
+                'ngoerahsun',
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 16,

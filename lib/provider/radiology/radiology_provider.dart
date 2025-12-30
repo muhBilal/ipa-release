@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
-import 'package:Ngoerahsun/model/radiology_menu.dart';
-import 'package:Ngoerahsun/services/radiology/radiology_service.dart';
+import 'package:ngoerahsun/model/radiology_menu.dart';
+import 'package:ngoerahsun/services/radiology/radiology_service.dart';
 
 class RadiologyProvider with ChangeNotifier {
   final RadiologyService _service = RadiologyService();

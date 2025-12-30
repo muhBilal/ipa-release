@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:Ngoerahsun/utils/app_colors/app_colors.dart';
-import 'package:Ngoerahsun/utils/app_images/app_images.dart';
+import 'package:ngoerahsun/utils/app_colors/app_colors.dart';
+import 'package:ngoerahsun/utils/app_images/app_images.dart';
 
 class MyHospitalView extends StatefulWidget {
   const MyHospitalView({super.key});
@@ -13,7 +13,7 @@ class _MyHospitalViewState extends State<MyHospitalView> {
   List<Map<String, dynamic>> hospitalDetails = [
     {
       "image": LocalImages.icNearMedicalLogo,
-      "name": "Ngoerahsun Health Center",
+      "name": "ngoerahsun Health Center",
       "location": "123 Oak Street, CA 98765",
       "rating": "5",
       "review": "1,872 Reviews",
@@ -23,7 +23,7 @@ class _MyHospitalViewState extends State<MyHospitalView> {
     },
     {
       "image": LocalImages.icNearMedicalLogo,
-      "name": "Ngoerahsun Health Center",
+      "name": "ngoerahsun Health Center",
       "location": "123 Oak Street, CA 98765",
       "rating": "5",
       "review": "1,872 Reviews",
@@ -33,7 +33,7 @@ class _MyHospitalViewState extends State<MyHospitalView> {
     },
     {
       "image": LocalImages.icNearMedicalLogo,
-      "name": "Ngoerahsun Health Center",
+      "name": "ngoerahsun Health Center",
       "location": "123 Oak Street, CA 98765",
       "rating": "5",
       "review": "1,872 Reviews",
@@ -43,7 +43,7 @@ class _MyHospitalViewState extends State<MyHospitalView> {
     },
     {
       "image": LocalImages.icNearMedicalLogo,
-      "name": "Ngoerahsun Health Center",
+      "name": "ngoerahsun Health Center",
       "location": "123 Oak Street, CA 98765",
       "rating": "5",
       "review": "1,872 Reviews",
@@ -53,7 +53,7 @@ class _MyHospitalViewState extends State<MyHospitalView> {
     },
     {
       "image": LocalImages.icNearMedicalLogo,
-      "name": "Ngoerahsun Health Center",
+      "name": "ngoerahsun Health Center",
       "location": "123 Oak Street, CA 98765",
       "rating": "5",
       "review": "1,872 Reviews",

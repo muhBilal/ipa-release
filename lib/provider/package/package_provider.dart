@@ -1,9 +1,9 @@
 import 'dart:developer';
-import 'package:Ngoerahsun/model/mcu_model.dart';
-import 'package:Ngoerahsun/services/package/package_service.dart';
+import 'package:ngoerahsun/model/mcu_model.dart';
+import 'package:ngoerahsun/services/package/package_service.dart';
 import 'package:flutter/foundation.dart';
 
-import 'package:Ngoerahsun/model/wellnessModel.dart';
+import 'package:ngoerahsun/model/wellnessModel.dart';
 
 class WellnessPackageProvider with ChangeNotifier {
   final PackageService _packageService = PackageService();

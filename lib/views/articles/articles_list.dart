@@ -1,16 +1,16 @@
 import 'dart:async';
 
-import 'package:Ngoerahsun/l10n/app_localizations.dart';
+import 'package:ngoerahsun/l10n/app_localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
 
-import 'package:Ngoerahsun/core/navigation/navigator.dart';
-import 'package:Ngoerahsun/provider/article/article_provider.dart';
-import 'package:Ngoerahsun/utils/app_colors/app_colors.dart';
-import 'package:Ngoerahsun/views/articles/article_detail_view.dart';
-import 'package:Ngoerahsun/views/articles/article_view.dart';
-import 'package:Ngoerahsun/widgets/app_text_from_field/app_text_from_field_view.dart';
+import 'package:ngoerahsun/core/navigation/navigator.dart';
+import 'package:ngoerahsun/provider/article/article_provider.dart';
+import 'package:ngoerahsun/utils/app_colors/app_colors.dart';
+import 'package:ngoerahsun/views/articles/article_detail_view.dart';
+import 'package:ngoerahsun/views/articles/article_view.dart';
+import 'package:ngoerahsun/widgets/app_text_from_field/app_text_from_field_view.dart';
 
 class ArticlesList extends StatefulWidget {
   const ArticlesList({super.key});

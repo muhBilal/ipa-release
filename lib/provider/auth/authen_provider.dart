@@ -1,9 +1,9 @@
 import 'dart:developer';
 import 'dart:io';
 
-import 'package:Ngoerahsun/model/user_model.dart';
-import 'package:Ngoerahsun/services/auth/auth_service.dart';
-import 'package:Ngoerahsun/services/preferences/user_preferences.dart';
+import 'package:ngoerahsun/model/user_model.dart';
+import 'package:ngoerahsun/services/auth/auth_service.dart';
+import 'package:ngoerahsun/services/preferences/user_preferences.dart';
 import 'package:flutter/foundation.dart';
 
 class AuthenProvider with ChangeNotifier {

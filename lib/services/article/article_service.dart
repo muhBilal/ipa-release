@@ -1,8 +1,8 @@
 import 'dart:developer';
 import 'dart:convert';
 import 'package:flutter/foundation.dart';
-import 'package:Ngoerahsun/model/article_model.dart';
-import 'package:Ngoerahsun/utils/repository.dart';
+import 'package:ngoerahsun/model/article_model.dart';
+import 'package:ngoerahsun/utils/repository.dart';
 import 'package:http/http.dart' as http;
 
 class ArticleService {

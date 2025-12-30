@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:Ngoerahsun/utils/app_colors/app_colors.dart';
-import 'package:Ngoerahsun/model/notification/notification_model.dart';
+import 'package:ngoerahsun/utils/app_colors/app_colors.dart';
+import 'package:ngoerahsun/model/notification/notification_model.dart';
 
 class NotificationsListView extends StatelessWidget {
   final String? dayName;

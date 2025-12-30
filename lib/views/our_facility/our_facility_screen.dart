@@ -1,12 +1,12 @@
 import 'dart:developer';
-import 'package:Ngoerahsun/l10n/app_localizations.dart';
-import 'package:Ngoerahsun/model/cms/our_facility_model.dart';
-import 'package:Ngoerahsun/provider/cms/our_facility_provider.dart';
-import 'package:Ngoerahsun/provider/language/locale_provider.dart';
+import 'package:ngoerahsun/l10n/app_localizations.dart';
+import 'package:ngoerahsun/model/cms/our_facility_model.dart';
+import 'package:ngoerahsun/provider/cms/our_facility_provider.dart';
+import 'package:ngoerahsun/provider/language/locale_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
-import 'package:Ngoerahsun/utils/app_colors/app_colors.dart';
+import 'package:ngoerahsun/utils/app_colors/app_colors.dart';
 
 class OurFacilityView extends StatefulWidget {
   const OurFacilityView({super.key});
@@ -107,7 +107,7 @@ class _OurFacilityViewState extends State<OurFacilityView> {
                         const Padding(
                           padding: EdgeInsets.symmetric(horizontal: 24.0),
                           child: Text(
-                            'NgoerahSun\nWellness & Aesthetic Center',
+                            'ngoerahsun\nWellness & Aesthetic Center',
                             style: TextStyle(
                               color: Colors.white,
                               fontSize: 28,

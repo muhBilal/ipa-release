@@ -1,21 +1,21 @@
-import 'package:Ngoerahsun/l10n/app_localizations.dart';
-import 'package:Ngoerahsun/provider/admission/admission_provider.dart';
-import 'package:Ngoerahsun/provider/package/package_provider.dart';
-import 'package:Ngoerahsun/utils/app_colors/app_colors.dart';
-import 'package:Ngoerahsun/views/bottom_navigation_bar/bottom_navigation_bar_view.dart';
-import 'package:Ngoerahsun/views/dashboard/dashboard_view.dart';
-import 'package:Ngoerahsun/widgets/gradient_background/gradient_background.dart';
+import 'package:ngoerahsun/l10n/app_localizations.dart';
+import 'package:ngoerahsun/provider/admission/admission_provider.dart';
+import 'package:ngoerahsun/provider/package/package_provider.dart';
+import 'package:ngoerahsun/utils/app_colors/app_colors.dart';
+import 'package:ngoerahsun/views/bottom_navigation_bar/bottom_navigation_bar_view.dart';
+import 'package:ngoerahsun/views/dashboard/dashboard_view.dart';
+import 'package:ngoerahsun/widgets/gradient_background/gradient_background.dart';
 import 'package:flutter/material.dart';
 import 'dart:ui';
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
-import 'package:Ngoerahsun/model/mcu_model.dart';
+import 'package:ngoerahsun/model/mcu_model.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:Ngoerahsun/services/admission/admission_service.dart';
-import 'package:Ngoerahsun/services/preferences/user_preferences.dart';
-import 'package:Ngoerahsun/model/user_model.dart';
-import 'package:Ngoerahsun/model/booking_result_model.dart';
-import 'package:Ngoerahsun/views/webview/mcu_questionnaire_webview.dart';
+import 'package:ngoerahsun/services/admission/admission_service.dart';
+import 'package:ngoerahsun/services/preferences/user_preferences.dart';
+import 'package:ngoerahsun/model/user_model.dart';
+import 'package:ngoerahsun/model/booking_result_model.dart';
+import 'package:ngoerahsun/views/webview/mcu_questionnaire_webview.dart';
 
 void main() {
   runApp(MyApp());

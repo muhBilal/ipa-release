@@ -1,14 +1,14 @@
-import 'package:Ngoerahsun/l10n/app_localizations.dart';
-import 'package:Ngoerahsun/provider/auth/authen_provider.dart';
-import 'package:Ngoerahsun/services/auth/auth_service.dart';
-import 'package:Ngoerahsun/utils/app_colors/app_colors.dart';
-import 'package:Ngoerahsun/views/login/login_view.dart';
+import 'package:ngoerahsun/l10n/app_localizations.dart';
+import 'package:ngoerahsun/provider/auth/authen_provider.dart';
+import 'package:ngoerahsun/services/auth/auth_service.dart';
+import 'package:ngoerahsun/utils/app_colors/app_colors.dart';
+import 'package:ngoerahsun/views/login/login_view.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:Ngoerahsun/core/navigation/navigator.dart';
-import 'package:Ngoerahsun/utils/app_images/app_images.dart';
-import 'package:Ngoerahsun/views/bottom_navigation_bar/bottom_navigation_bar_view.dart';
-import 'package:Ngoerahsun/model/country_model.dart';
+import 'package:ngoerahsun/core/navigation/navigator.dart';
+import 'package:ngoerahsun/utils/app_images/app_images.dart';
+import 'package:ngoerahsun/views/bottom_navigation_bar/bottom_navigation_bar_view.dart';
+import 'package:ngoerahsun/model/country_model.dart';
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
 
@@ -1157,7 +1157,7 @@ class _SignUpViewState extends State<SignUpView> with TickerProviderStateMixin {
                       children: [
                         Text.rich(
                           TextSpan(
-                            text: "NgoerahSun",
+                            text: "ngoerahsun",
                             style: TextStyle(
                               fontSize: 28,
                               fontWeight: FontWeight.w700,

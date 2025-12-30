@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:Ngoerahsun/utils/app_colors/app_colors.dart';
-import 'package:Ngoerahsun/utils/app_images/app_images.dart';
+import 'package:ngoerahsun/utils/app_colors/app_colors.dart';
+import 'package:ngoerahsun/utils/app_images/app_images.dart';
 
 class HospitalDetailsView extends StatefulWidget {
   const HospitalDetailsView({super.key});
@@ -13,7 +13,7 @@ class _HospitalDetailsViewState extends State<HospitalDetailsView> {
   final List<Map<String, dynamic>> medicalCenters = [
     {
       "image": LocalImages.icNearMedicalLogo,
-      "name": "Ngoerahsun Health Center",
+      "name": "ngoerahsun Health Center",
       "address": "1234 Main St, City",
       "rating": 4.5,
       "reviewsCount": 100,
@@ -33,7 +33,7 @@ class _HospitalDetailsViewState extends State<HospitalDetailsView> {
     },
     {
       "image": LocalImages.icNearMedicalLogo,
-      "name": "Ngoerahsun Health Center",
+      "name": "ngoerahsun Health Center",
       "address": "91011 Oak St, City",
       "rating": 4.2,
       "reviewsCount": 90,

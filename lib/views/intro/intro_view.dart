@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:Ngoerahsun/core/navigation/navigator.dart';
-import 'package:Ngoerahsun/utils/app_images/app_images.dart';
-import 'package:Ngoerahsun/views/login/login_view.dart';
-import 'package:Ngoerahsun/widgets/app_button/app_button.dart';
+import 'package:ngoerahsun/core/navigation/navigator.dart';
+import 'package:ngoerahsun/utils/app_images/app_images.dart';
+import 'package:ngoerahsun/views/login/login_view.dart';
+import 'package:ngoerahsun/widgets/app_button/app_button.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 class IntroView extends StatefulWidget {

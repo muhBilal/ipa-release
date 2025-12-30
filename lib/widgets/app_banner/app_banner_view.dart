@@ -1,11 +1,11 @@
 import 'dart:async';
 import 'dart:developer';
-import 'package:Ngoerahsun/provider/promo/promo_provider.dart';
-import 'package:Ngoerahsun/views/promos/detail_promo_screen.dart';
+import 'package:ngoerahsun/provider/promo/promo_provider.dart';
+import 'package:ngoerahsun/views/promos/detail_promo_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
-import 'package:Ngoerahsun/utils/app_colors/app_colors.dart';
+import 'package:ngoerahsun/utils/app_colors/app_colors.dart';
 
 class AppBannerView extends StatefulWidget {
   const AppBannerView({super.key});

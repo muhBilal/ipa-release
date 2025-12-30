@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'dart:developer';
-import 'package:Ngoerahsun/model/cms/about_us_model.dart';
-import 'package:Ngoerahsun/utils/repository.dart';
+import 'package:ngoerahsun/model/cms/about_us_model.dart';
+import 'package:ngoerahsun/utils/repository.dart';
 import 'package:http/http.dart' as http;
 
 class AboutUsService {

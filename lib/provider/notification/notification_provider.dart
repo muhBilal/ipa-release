@@ -1,7 +1,7 @@
 import 'dart:developer';
 
-import 'package:Ngoerahsun/model/notification/notification_group_model.dart';
-import 'package:Ngoerahsun/services/notification/notification_service.dart';
+import 'package:ngoerahsun/model/notification/notification_group_model.dart';
+import 'package:ngoerahsun/services/notification/notification_service.dart';
 import 'package:flutter/material.dart';
 
 class NotificationProvider extends ChangeNotifier {

@@ -466,13 +466,13 @@ class AppLocalizationsId extends AppLocalizations {
   String get aboutUs => 'Tentang Kami';
 
   @override
-  String get ngoerahsunHospital => 'Rumah Sakit Ngoerahsun';
+  String get ngoerahsunHospital => 'Rumah Sakit ngoerahsun';
 
   @override
   String get excellenceInHealthcare => 'Keunggulan Dalam Pelayanan Kesehatan';
 
   @override
-  String get aboutDescription => 'Ngoerahsun adalah institusi kesehatan terkemuka di Indonesia yang berkomitmen menyediakan layanan medis berstandar internasional dengan teknologi canggih dan tenaga medis berpengalaman.';
+  String get aboutDescription => 'ngoerahsun adalah institusi kesehatan terkemuka di Indonesia yang berkomitmen menyediakan layanan medis berstandar internasional dengan teknologi canggih dan tenaga medis berpengalaman.';
 
   @override
   String get aboutLabel => 'Tentang';

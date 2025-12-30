@@ -1,7 +1,7 @@
 import 'dart:developer';
 
-import 'package:Ngoerahsun/model/examination_model.dart';
-import 'package:Ngoerahsun/services/examination/examination_service.dart';
+import 'package:ngoerahsun/model/examination_model.dart';
+import 'package:ngoerahsun/services/examination/examination_service.dart';
 import 'package:flutter/material.dart';
 
 class ExaminationProvider with ChangeNotifier {

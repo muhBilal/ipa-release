@@ -1,10 +1,10 @@
-import 'package:Ngoerahsun/l10n/app_localizations.dart';
+import 'package:ngoerahsun/l10n/app_localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
-import 'package:Ngoerahsun/utils/app_colors/app_colors.dart';
-import 'package:Ngoerahsun/views/notifications/widget/notification_list_view.dart';
-import 'package:Ngoerahsun/provider/notification/notification_provider.dart';
+import 'package:ngoerahsun/utils/app_colors/app_colors.dart';
+import 'package:ngoerahsun/views/notifications/widget/notification_list_view.dart';
+import 'package:ngoerahsun/provider/notification/notification_provider.dart';
 
 class MyNotificationsView extends StatefulWidget {
   const MyNotificationsView({super.key});

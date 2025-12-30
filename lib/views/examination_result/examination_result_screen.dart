@@ -1,16 +1,16 @@
 import 'dart:developer';
 import 'dart:io';
-import 'package:Ngoerahsun/l10n/app_localizations.dart';
-import 'package:Ngoerahsun/views/webview_screen.dart';
+import 'package:ngoerahsun/l10n/app_localizations.dart';
+import 'package:ngoerahsun/views/webview_screen.dart';
 import 'package:dio/dio.dart';
 import 'package:intl/intl.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:open_filex/open_filex.dart';
-import 'package:Ngoerahsun/model/examination_model.dart';
-import 'package:Ngoerahsun/provider/examination/examination_provider.dart';
+import 'package:ngoerahsun/model/examination_model.dart';
+import 'package:ngoerahsun/provider/examination/examination_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:Ngoerahsun/widgets/gradient_background/gradient_background.dart';
+import 'package:ngoerahsun/widgets/gradient_background/gradient_background.dart';
 
 class ExaminationResultPage extends StatefulWidget {
   const ExaminationResultPage({super.key});

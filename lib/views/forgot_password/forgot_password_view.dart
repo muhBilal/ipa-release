@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:Ngoerahsun/core/navigation/navigator.dart';
-import 'package:Ngoerahsun/utils/app_colors/app_colors.dart';
-import 'package:Ngoerahsun/utils/app_images/app_images.dart';
-import 'package:Ngoerahsun/views/verify_code/verify_code_view.dart';
-import 'package:Ngoerahsun/widgets/app_button/app_button.dart';
-import 'package:Ngoerahsun/widgets/app_text_from_field/app_text_from_field_view.dart';
+import 'package:ngoerahsun/core/navigation/navigator.dart';
+import 'package:ngoerahsun/utils/app_colors/app_colors.dart';
+import 'package:ngoerahsun/utils/app_images/app_images.dart';
+import 'package:ngoerahsun/views/verify_code/verify_code_view.dart';
+import 'package:ngoerahsun/widgets/app_button/app_button.dart';
+import 'package:ngoerahsun/widgets/app_text_from_field/app_text_from_field_view.dart';
 
 class ForgotPasswordView extends StatefulWidget {
   const ForgotPasswordView({super.key});

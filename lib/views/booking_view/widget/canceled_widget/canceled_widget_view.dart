@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:Ngoerahsun/utils/app_colors/app_colors.dart';
-import 'package:Ngoerahsun/utils/app_images/app_images.dart';
-import 'package:Ngoerahsun/widgets/app_AppointmentCard/app_appointment_card_view.dart';
-import 'package:Ngoerahsun/widgets/app_button/app_button.dart';
+import 'package:ngoerahsun/utils/app_colors/app_colors.dart';
+import 'package:ngoerahsun/utils/app_images/app_images.dart';
+import 'package:ngoerahsun/widgets/app_AppointmentCard/app_appointment_card_view.dart';
+import 'package:ngoerahsun/widgets/app_button/app_button.dart';
 
 class CanceledWidgetView extends StatefulWidget {
   const CanceledWidgetView({super.key});

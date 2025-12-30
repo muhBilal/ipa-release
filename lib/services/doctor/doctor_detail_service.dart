@@ -1,8 +1,8 @@
 import 'dart:convert';
 import 'dart:developer';
 import 'package:http/http.dart' as http;
-import 'package:Ngoerahsun/utils/repository.dart';
-import 'package:Ngoerahsun/model/doctor_detail_model.dart';
+import 'package:ngoerahsun/utils/repository.dart';
+import 'package:ngoerahsun/model/doctor_detail_model.dart';
 
 class DoctorDetailService {
   final ResourceRepository _repo = ResourceRepository();

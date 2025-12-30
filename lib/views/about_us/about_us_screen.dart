@@ -1,10 +1,10 @@
 import 'dart:developer';
-import 'package:Ngoerahsun/provider/language/locale_provider.dart';
+import 'package:ngoerahsun/provider/language/locale_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:Ngoerahsun/model/cms/about_us_model.dart';
-import 'package:Ngoerahsun/provider/cms/about_us_provider.dart';
-import 'package:Ngoerahsun/utils/app_colors/app_colors.dart';
+import 'package:ngoerahsun/model/cms/about_us_model.dart';
+import 'package:ngoerahsun/provider/cms/about_us_provider.dart';
+import 'package:ngoerahsun/utils/app_colors/app_colors.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class AboutUsScreenView extends StatefulWidget {
@@ -102,7 +102,7 @@ class _AboutUsScreenViewState extends State<AboutUsScreenView> {
                         const Padding(
                           padding: EdgeInsets.symmetric(horizontal: 24.0),
                           child: Text(
-                            'NgoerahSun\nWellness & Aesthetic Center',
+                            'ngoerahsun\nWellness & Aesthetic Center',
                             style: TextStyle(
                               color: Colors.white,
                               fontSize: 28,

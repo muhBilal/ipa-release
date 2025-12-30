@@ -1,23 +1,23 @@
 import 'dart:developer';
 
-import 'package:Ngoerahsun/l10n/app_localizations.dart';
-import 'package:Ngoerahsun/model/user_model.dart';
-import 'package:Ngoerahsun/provider/auth/authen_provider.dart';
-import 'package:Ngoerahsun/services/auth/auth_service.dart';
-import 'package:Ngoerahsun/services/preferences/user_preferences.dart';
-import 'package:Ngoerahsun/utils/app_colors/app_colors.dart';
-import 'package:Ngoerahsun/widgets/gradient_background/gradient_background.dart';
+import 'package:ngoerahsun/l10n/app_localizations.dart';
+import 'package:ngoerahsun/model/user_model.dart';
+import 'package:ngoerahsun/provider/auth/authen_provider.dart';
+import 'package:ngoerahsun/services/auth/auth_service.dart';
+import 'package:ngoerahsun/services/preferences/user_preferences.dart';
+import 'package:ngoerahsun/utils/app_colors/app_colors.dart';
+import 'package:ngoerahsun/widgets/gradient_background/gradient_background.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:Ngoerahsun/core/navigation/navigator.dart';
-import 'package:Ngoerahsun/utils/app_images/app_images.dart';
-import 'package:Ngoerahsun/views/bottom_navigation_bar/bottom_navigation_bar_view.dart';
-import 'package:Ngoerahsun/views/forgot_password/forgot_password_view.dart';
-import 'package:Ngoerahsun/views/signup/signup_view.dart';
+import 'package:ngoerahsun/core/navigation/navigator.dart';
+import 'package:ngoerahsun/utils/app_images/app_images.dart';
+import 'package:ngoerahsun/views/bottom_navigation_bar/bottom_navigation_bar_view.dart';
+import 'package:ngoerahsun/views/forgot_password/forgot_password_view.dart';
+import 'package:ngoerahsun/views/signup/signup_view.dart';
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
-import 'package:Ngoerahsun/model/country_model.dart';
+import 'package:ngoerahsun/model/country_model.dart';
 import 'package:toastification/toastification.dart';
 
 class SignInView extends StatefulWidget {
@@ -853,7 +853,7 @@ class _SignInViewState extends State<SignInView> with TickerProviderStateMixin {
                   child: Column(
                     children: [
                       Text(
-                        "NgoerahSun",
+                        "ngoerahsun",
                         style: TextStyle(
                           fontSize: 32,
                           fontWeight: FontWeight.w700,
