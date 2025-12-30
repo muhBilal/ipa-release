@@ -1031,7 +1031,7 @@
       "name": "Ngoerahsun",
       "rootUri": "../",
       "packageUri": "lib/",
-      "languageVersion": "3.4"
+      "languageVersion": "3.10"
     }
   ],
   "generator": "pub",
