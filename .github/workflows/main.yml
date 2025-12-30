@@ -14,11 +14,24 @@ jobs:
         with:
           channel: 'stable'
           architecture: x64
-      - run: flutter pub get
-      
+          
+      # --- DEBUGGING STEP (PENTING) ---
+      # Ini akan menampilkan isi file pubspec.yaml di log error nanti.
+      # Kita bisa lihat apakah spasinya rusak atau versinya salah.
+      - name: 🔍 Debug Pubspec Content
+        run: cat pubspec.yaml
 
-      - run: pod repo update
-        working-directory: ios
+      - name: 🧹 Clean and Get Packages
+        run: |
+          rm -f pubspec.lock
+          flutter clean
+          flutter pub get
+
+      - name: Install CocoaPods
+        run: |
+          cd ios
+          pod install --repo-update
+        shell: bash
 
       - run: flutter build ios --release --no-codesign
 
@@ -39,4 +52,4 @@ jobs:
           file: build/ios/iphoneos/FlutterIpaExport.ipa
           tag: v1.0
           overwrite: true
-          body: "This is first release"
+          body: "Debug Release"
