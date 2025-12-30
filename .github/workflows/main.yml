@@ -14,23 +14,25 @@ jobs:
         with:
           channel: 'stable'
           architecture: x64
-          cache: true # Mengaktifkan cache agar build berikutnya lebih cepat
+          
+      # --- DEBUGGING STEP (PENTING) ---
+      # Ini akan menampilkan isi file pubspec.yaml di log error nanti.
+      # Kita bisa lihat apakah spasinya rusak atau versinya salah.
+      - name: 🔍 Debug Pubspec Content
+        run: cat pubspec.yaml
 
-      # PENTING: Membersihkan cache lama dan lock file agar tidak konflik
-      - name: Clean & Get Packages
+      - name: 🧹 Clean and Get Packages
         run: |
           rm -f pubspec.lock
           flutter clean
           flutter pub get
 
-      # Install Pods (Wajib untuk iOS)
       - name: Install CocoaPods
         run: |
           cd ios
           pod install --repo-update
         shell: bash
 
-      # Build IPA (Ingat: --no-codesign hasilnya tidak bisa diinstall di HP tanpa resign)
       - run: flutter build ios --release --no-codesign
 
       - run: mkdir Payload
@@ -50,4 +52,4 @@ jobs:
           file: build/ios/iphoneos/FlutterIpaExport.ipa
           tag: v1.0
           overwrite: true
-          body: "Build terbaru via GitHub Actions"
+          body: "Debug Release"
