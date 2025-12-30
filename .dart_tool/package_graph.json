@@ -1,10 +1,10 @@
 {
   "roots": [
-    "Ngoerahsun"
+    "ngoerahsun"
   ],
   "packages": [
     {
-      "name": "Ngoerahsun",
+      "name": "ngoerahsun",
       "version": "1.0.0+1",
       "dependencies": [
         "barcode_widget",

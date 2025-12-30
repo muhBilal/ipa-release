@@ -1,4 +1,4 @@
-name: Ngoerahsun
+name: ngoerahsun # Ubah jadi huruf kecil (snake_case)
 description: "A new Flutter project."
 publish_to: "none"
 
@@ -55,12 +55,11 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   
-  # Tools (Hanya digunakan saat development)
+  # Tools
   flutter_launcher_icons: ^0.13.1
   change_app_package_name: ^1.5.0
   # flutter_lints: ^3.0.0
 
-# Konfigurasi untuk flutter_launcher_icons
 flutter_icons:
   android: true
   ios: true
@@ -71,11 +70,9 @@ flutter_icons:
 flutter:
   uses-material-design: true
   generate: true
-
   assets:
     - assets/images/
     - assets/icons/
-
   fonts:
     - family: Montserrat
       fonts:
